@@ -5,12 +5,12 @@
 
 #[[main]]
 #  name = "Programing"
-#  url = "/categories/programing"
+#  url = "/categories/programing/"
 #  weight = 70
 
 #[[main]]
 #  name = "Linux"
-#  url = "/categories/linux"
+#  url = "/categories/linux/"
 #  weight = 80
 
 [[main]]
