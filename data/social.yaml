@@ -1,0 +1,9 @@
+- item: "github"
+  url: "https://github.com/razonyang"
+- item: "twitter"
+  url: "https://twitter.com/razonyang"
+#- item: "linkedin"
+#  url: "https://www.linkedin.com/in/razonyang"
+- item: "rss"
+  url: "index.xml"
+  internal:  true
