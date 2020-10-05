@@ -2,6 +2,10 @@
     max-width: 3rem !important;
 }
 
+.posts {
+    margin-top: 1rem;
+}
+
 .post_date {
     margin-top: 0.5rem;
 }
