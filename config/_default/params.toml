@@ -37,6 +37,9 @@ customJS = ["js/app.js"]
 
 comment = true
 
+numberOfRecentPosts = 5
+numberOfFeaturedPosts = 5
+
 [beian]
   no = "粤公网安备44040302000341号"
   link = "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44040302000341"
