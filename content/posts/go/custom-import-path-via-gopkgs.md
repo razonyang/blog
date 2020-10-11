@@ -26,7 +26,7 @@ tags:
 | Import Path            | Repository                             |
 | ---------------------- | -------------------------------------- |
 | clevergo.tech/clevergo | <https://github.com/clevergo/clevergo> |
-| clevergo.tech/captchas | <https://github.com/clevergo/clevergo> |
+| clevergo.tech/captchas | <https://github.com/clevergo/captchas> |
 | ...                    |                                        |
 
 1. 注册账号并登录后台。
