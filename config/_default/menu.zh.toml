@@ -12,5 +12,9 @@
   url = "https://gopkgs.net/"
 [[main]]
   parent = "projects"
-  name = "Yii 2 Admin"
+  name = "Yii 2 管理后台"
   url = "https://admin.yii2.razonyang.com/"
+[[main]]
+  parent = "projects"
+  name = "Hugo Bootstrap 主题"
+  url = "https://github.com/razonyang/hugo-theme-bootstrap"

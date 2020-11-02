@@ -14,3 +14,7 @@
   parent = "projects"
   name = "Yii 2 Admin"
   url = "https://admin.yii2.razonyang.com/"
+[[main]]
+  parent = "projects"
+  name = "Hugo Bootstrap Theme"
+  url = "https://github.com/razonyang/hugo-theme-bootstrap"
