@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap 导航栏下拉菜单移除倒三角图标。"
+title: "Bootstrap 导航栏下拉菜单移除倒三角图标"
 date: 2020-10-17T20:00:47+08:00
 featured: false
 toc: true

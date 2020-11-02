@@ -1,19 +1,4 @@
 [[main]]
-  name = "Home"
-  url = "/"
-  weight = 10
-
-#[[main]]
-#  name = "Programing"
-#  url = "/categories/programing/"
-#  weight = 70
-
-#[[main]]
-#  name = "Linux"
-#  url = "/categories/linux/"
-#  weight = 80
-
-[[main]]
   name = "Projects"
   identifier = "projects"
   weight = 100

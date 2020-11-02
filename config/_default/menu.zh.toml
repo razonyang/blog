@@ -1,19 +1,4 @@
 [[main]]
-  name = "首页"
-  url = "/"
-  weight = 10
-
-[[main]]
-  name = "开发"
-  url = "/categories/programing/"
-  weight = 70
-
-[[main]]
-  name = "Linux"
-  url = "/categories/linux/"
-  weight = 80
-
-[[main]]
   name = "项目"
   identifier = "projects"
   weight = 100
