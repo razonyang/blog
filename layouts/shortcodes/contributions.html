@@ -1,5 +1,5 @@
 {{ range $.Site.Data.contributions }}
 <a href="https://github.com/{{ .owner }}/{{ .repo }}">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username={{ .owner }}&repo={{ .repo }}&show_owner=true&theme=blueberry" />
+    <img class="img-fluid" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username={{ .owner }}&repo={{ .repo }}&show_owner=true&theme=blueberry" />
 </a>
 {{ end }}
