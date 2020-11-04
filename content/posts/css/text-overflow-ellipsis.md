@@ -25,4 +25,4 @@ CSS 文本超过一行显示省略号 ...
 </p>
 ```
 
-{{< jsfiddle id="razonyang/wLrbh70u" tabs="result" height="120" >}}
+{{< jsfiddle "razonyang/wLrbh70u" >}}

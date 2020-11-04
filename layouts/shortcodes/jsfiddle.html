@@ -1,8 +1,0 @@
-{{ $height := default 300 ( .Get "height" ) }}
-{{ $tabs := default "js,html,css,result" ( .Get "tabs" ) }}
-<iframe width="100%" height="{{ $height }}" 
-    src="//jsfiddle.net/{{ .Get "id" }}/embedded/{{ $tabs }}"
-    allowfullscreen="allowfullscreen"
-    allowpaymentrequest
-    frameborder="0">
-</iframe>
