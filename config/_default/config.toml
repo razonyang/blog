@@ -1,6 +1,5 @@
 baseurl = "/"
 title = "Razon Yang"
-author = "Razon Yang"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
 
