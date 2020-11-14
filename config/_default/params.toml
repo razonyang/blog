@@ -4,14 +4,6 @@ palette = "blue"
 
 mainSections = ["posts"]
 
-customCSS = [
-  "css/app.css"
-]
-customJS = [
-  "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/js/solid.js",
-  "js/app.js"
-]
-
 comment = true
 
 recentPostCount = 10
