@@ -14,3 +14,6 @@ featuredPostCount = 5
   link = "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44040302000341"
   icpNo = "粤ICP备20043980号"
   icpLink = "http://beian.miit.gov.cn/"
+
+[share]
+  addThis = "ra-5fb19b4fde14befc"
