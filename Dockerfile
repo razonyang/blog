@@ -1,10 +1,8 @@
-FROM centos:latest as builder
+FROM klakegg/hugo:ubuntu as builder
 
-RUN curl -o /etc/yum.repos.d/hugo.repo https://copr.fedorainfracloud.org/coprs/daftaupe/hugo/repo/epel-8/daftaupe-hugo-epel-8.repo
+RUN apt-get update -y
 
-RUN dnf update -y
-
-RUN dnf install -y hugo git
+RUN apt-get install -y git
 
 WORKDIR /src
 
@@ -12,7 +10,7 @@ COPY . /src
 
 ENV HUGO_ENV=production
 
-RUN git submodule update --init --recursive && hugo --minify
+RUN git submodule update --init --recursive && hugo version && hugo --minify
 
 
 FROM nginx
