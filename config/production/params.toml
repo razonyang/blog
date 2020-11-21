@@ -1,5 +1,8 @@
 googleAdsense = "pub-7827859788508375"
 
+[siteVerification]
+  baiduUnion = "fb2885770b4ad43d01db154448a2e42a"
+
 [analytics]
   baidu = "1748e454242a1146387e079e3bb3a92a"
 
