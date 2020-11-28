@@ -1,11 +1,16 @@
+.ad-sticky {
+  position: sticky;
+  top: 84px;
+}
+
 .sidebar-ad {
   padding: 0;
-  max-width: 350px;
+  width: 350px;
+  height: auto;
 }
 
 @media (min-width: 576px) {
   .sidebar-ad {
     width: 100%;
-    height: auto;
   }
 }
