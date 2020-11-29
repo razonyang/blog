@@ -1,2 +1,3 @@
 dateFormat = "2006-01-02"
-archiveDateFormat = "01-02"
+[archive]
+  dateFormat = "01-02"

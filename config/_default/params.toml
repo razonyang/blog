@@ -1,6 +1,7 @@
 author = "Razon Yang"
 brand = "RAZON YANG"
 palette = "blue"
+description = "Web 开发技术博客"
 
 mainSections = ["posts"]
 
