@@ -6,7 +6,7 @@ mainSections = ["posts"]
 
 comment = true
 
-recentPostCount = 10
+recentPostCount = 5
 featuredPostCount = 5
 
 [beian]
