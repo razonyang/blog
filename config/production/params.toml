@@ -2,6 +2,9 @@ googleAdsense = "ca-pub-7827859788508375"
 
 [siteVerification]
   baiduUnion = "fb2885770b4ad43d01db154448a2e42a"
+  so = "ab9fa90e0cfa26573d6e007f899e06af"
+  sogou = "snB5R2dSuk"
+  shenma = "d2bc29d8b0f2442f022951a6bce6f9a5_1606646820"
 
 [analytics]
   baidu = "1748e454242a1146387e079e3bb3a92a"
