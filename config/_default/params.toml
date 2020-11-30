@@ -1,11 +1,9 @@
 author = "Razon Yang"
 brand = "RAZON YANG"
-palette = "blue"
+palette = "indigo"
 description = "Web 开发技术博客"
 
 mainSections = ["posts"]
-
-comment = true
 
 recentPostCount = 5
 featuredPostCount = 5

@@ -1,4 +1,25 @@
 [[main]]
+  name = "Categories"
+  identifier = "categories"
+  weight = 20
+  url = "categories"
+  pre = '<i class="fas fa-fw fa-folder"></i>'
+
+[[main]]
+  name = "Tags"
+  identifier = "tags"
+  weight = 30
+  url = "tags"
+  pre = '<i class="fas fa-fw fa-tags"></i>'
+
+[[main]]
+  name = "Series"
+  identifier = "series"
+  weight = 40
+  url = "series"
+  pre = '<i class="fas fa-fw fa-columns"></i>'
+
+[[main]]
   name = "Projects"
   identifier = "projects"
   weight = 100

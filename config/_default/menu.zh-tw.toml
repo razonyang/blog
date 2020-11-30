@@ -1,5 +1,5 @@
 [[main]]
-  name = "分类"
+  name = "分類"
   identifier = "categories"
   weight = 20
   url = "categories"
@@ -21,7 +21,7 @@
   pre = '<i class="fas fa-fw fa-server"></i>'
 
 [[main]]
-  name = "标签"
+  name = "標籤"
   identifier = "tags"
   weight = 30
   url = "tags"
@@ -50,10 +50,9 @@
   pre = '<i class="fas fa-fw fa-columns"></i>'
 
 [[main]]
-  name = "项目"
+  name = "項目"
   identifier = "projects"
   weight = 100
-
 [[main]]
   parent = "projects"
   name = "CleverGo"
@@ -64,9 +63,9 @@
   url = "https://gopkgs.net/"
 [[main]]
   parent = "projects"
-  name = "Yii 2 管理后台"
+  name = "Yii 2 管理後台"
   url = "https://admin.yii2.razonyang.com/"
 [[main]]
   parent = "projects"
-  name = "Hugo Bootstrap 主题"
+  name = "Hugo Bootstrap 主題"
   url = "https://github.com/razonyang/hugo-theme-bootstrap"
