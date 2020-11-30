@@ -9,16 +9,25 @@
   name = "Programing"
   url = "categories/programing"
   pre = '<i class="fas fa-fw fa-code"></i>'
+  weight = 1
 [[main]]
   parent = "categories"
   name = "Linux"
   url = "categories/linux"
   pre = '<i class="fab fa-fw fa-linux"></i>'
+  weight = 2
 [[main]]
   parent = "categories"
   name = "Server"
   url = "categories/server"
   pre = '<i class="fas fa-fw fa-server"></i>'
+  weight = 3
+[[main]]
+  parent = "categories"
+  name = "所有分類"
+  url = "categories"
+  pre = '<i class="fas fa-fw fa-folder"></i>'
+  weight = 100
 
 [[main]]
   name = "標籤"
@@ -31,16 +40,43 @@
   name = "PHP"
   url = "tags/php"
   pre = '<i class="fab fa-fw fa-php"></i>'
+  weight = 1
 [[main]]
   parent = "tags"
   name = "Go"
   url = "tags/go"
   pre = '<i class="fab fa-fw fa-google"></i>'
+  weight = 2
 [[main]]
   parent = "tags"
   name = "MySQL"
   url = "tags/mysql"
   pre = '<i class="fas fa-fw fa-database"></i>'
+  weight = 3
+[[main]]
+  parent = "tags"
+  name = "HTML"
+  url = "tags/html"
+  pre = '<i class="fab fa-fw fa-html5"></i>'
+  weight = 4
+[[main]]
+  parent = "tags"
+  name = "JavaScript"
+  url = "tags/mysql"
+  pre = '<i class="fab fa-fw fa-js"></i>'
+  weight = 5
+[[main]]
+  parent = "tags"
+  name = "CSS"
+  url = "tags/css"
+  pre = '<i class="fab fa-fw fa-css3"></i>'
+  weight = 6
+[[main]]
+  parent = "tags"
+  name = "所有標籤"
+  url = "tags"
+  pre = '<i class="fas fa-fw fa-tags"></i>'
+  weight = 100
 
 [[main]]
   name = "專欄"
