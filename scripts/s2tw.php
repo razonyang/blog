@@ -2,8 +2,8 @@
 /**
  * Translate simplified Chinese content into traditional Chinese.
  */
-$source = __DIR__ . "/content/zh-cn/";
-$target = __DIR__ . "/content/zh-tw/";
+$source = getcwd() . "/content/zh-cn/";
+$target = getcwd() . "/content/zh-tw/";
 
 translate($source, $target);
 
