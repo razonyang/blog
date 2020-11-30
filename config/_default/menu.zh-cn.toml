@@ -43,7 +43,7 @@
   pre = '<i class="fas fa-fw fa-database"></i>'
 
 [[main]]
-  name = "系列"
+  name = "专栏"
   identifier = "series"
   weight = 40
   url = "series"
