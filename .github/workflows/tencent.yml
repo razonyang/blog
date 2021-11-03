@@ -16,6 +16,8 @@
 name: Tencent Kubernetes Engine
 
 on:
+  workflow_dispatch:
+  
   push:
     branches:
       - master
