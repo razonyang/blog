@@ -2,21 +2,21 @@
   name = "Categories"
   identifier = "categories"
   weight = 20
-  url = "categories"
+  url = "en/categories"
   pre = '<i class="fas fa-fw fa-folder"></i>'
 
 [[main]]
   name = "Tags"
   identifier = "tags"
   weight = 30
-  url = "tags"
+  url = "en/tags"
   pre = '<i class="fas fa-fw fa-tags"></i>'
 
 [[main]]
   name = "Series"
   identifier = "series"
   weight = 40
-  url = "series"
+  url = "en/series"
   pre = '<i class="fas fa-fw fa-columns"></i>'
 
 [[main]]
