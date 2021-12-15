@@ -8,6 +8,11 @@ mainSections = ["posts"]
 recentPostCount = 5
 featuredPostCount = 5
 
+customCSS = [
+]
+customJS = [
+]
+
 [beian]
   no = "粤公网安备44040302000341号"
   link = "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44040302000341"

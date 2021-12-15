@@ -1,10 +1,4 @@
 [[main]]
-  name = "分类"
-  identifier = "categories"
-  weight = 20
-  url = "zh-cn/categories"
-  pre = '<i class="fas fa-fw fa-folder"></i>'
-[[main]]
   parent = "categories"
   name = "Programing"
   url = "zh-cn/categories/programing"
