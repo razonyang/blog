@@ -17,3 +17,7 @@ featuredPostCount = 5
 [reward]
   wechat = "/images/reward/wechat.webp"
   alipay = "/images/reward/alipay.webp"
+
+[pwa]
+  [pwa.minifest]
+    short_name = "Razon"
