@@ -26,3 +26,6 @@ customJS = [
 [pwa]
   [pwa.minifest]
     short_name = "Razon"
+
+[contact]
+  endpoint = "https://formspree.io/f/mnqwqgvr"
