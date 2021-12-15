@@ -19,8 +19,6 @@ tags = [
 
 ## 配置
 
-廢話少說，直接上碼。
-
 ```caddy
 @zh {
   path_regexp zh ^/zh/(.*)$
