@@ -29,3 +29,9 @@ customJS = [
 
 [contact]
   endpoint = "https://formspree.io/f/mnqwqgvr"
+
+[creativeCommons]
+  # by = true # Credit must be given to you, the creator.
+  # nc = true # Only noncommercial use of your work is permitted.
+  # nd = true # No derivatives or adaptations of your work are permitted.
+  # sa = true # Adaptations must be shared under the same terms.
