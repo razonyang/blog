@@ -3,7 +3,7 @@ brand = "RAZON YANG"
 palette = "indigo"
 description = "Web 开发技术博客"
 
-mainSections = ["posts"]
+mainSections = ["posts", "docs"]
 
 recentPostCount = 5
 featuredPostCount = 5
@@ -35,3 +35,6 @@ customJS = [
   # nc = true # Only noncommercial use of your work is permitted.
   # nd = true # No derivatives or adaptations of your work are permitted.
   # sa = true # Adaptations must be shared under the same terms.
+
+[repo]
+  url = "https://github.com/razonyang/blog"
