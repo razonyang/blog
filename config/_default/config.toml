@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "Razon Yang"
-theme = "hugo-theme-bootstrap"
+theme = "github.com/razonyang/hugo-theme-bootstrap"
 copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
 
 defaultContentLanguage = "zh-cn"
@@ -30,3 +30,6 @@ enableEmoji = true
   category = "categories"
   series = "series"
   tag = "tags"
+
+[build]
+  writeStats = true
