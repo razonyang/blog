@@ -2,25 +2,25 @@
   parent = "categories"
   name = "Programing"
   url = "zh-cn/categories/programing"
-  pre = '<i class="fas fa-fw fa-code"></i>'
+  pre = '<i class="fas fa-fw fa-code me-1"></i>'
   weight = 1
 [[main]]
   parent = "categories"
   name = "Linux"
   url = "zh-cn/categories/linux"
-  pre = '<i class="fab fa-fw fa-linux"></i>'
+  pre = '<i class="fab fa-fw fa-linux me-1"></i>'
   weight = 2
 [[main]]
   parent = "categories"
   name = "Server"
   url = "zh-cn/categories/server"
-  pre = '<i class="fas fa-fw fa-server"></i>'
+  pre = '<i class="fas fa-fw fa-server me-1"></i>'
   weight = 3
 [[main]]
   parent = "categories"
   name = "所有分类"
   url = "zh-cn/categories"
-  pre = '<i class="fas fa-fw fa-folder"></i>'
+  pre = '<i class="fas fa-fw fa-folder me-1"></i>'
   weight = 100
 
 [[main]]
@@ -28,48 +28,48 @@
   identifier = "tags"
   weight = 30
   url = "zh-cn/tags"
-  pre = '<i class="fas fa-fw fa-tags"></i>'
+  pre = '<i class="fas fa-fw fa-tags me-1"></i>'
 [[main]]
   parent = "tags"
   name = "PHP"
   url = "zh-cn/tags/php"
-  pre = '<i class="fab fa-fw fa-php"></i>'
+  pre = '<i class="fab fa-fw fa-php me-1"></i>'
   weight = 1
 [[main]]
   parent = "tags"
   name = "Go"
   url = "zh-cn/tags/go"
-  pre = '<i class="fab fa-fw fa-google"></i>'
+  pre = '<i class="fab fa-fw fa-google me-1"></i>'
   weight = 2
 [[main]]
   parent = "tags"
   name = "MySQL"
   url = "zh-cn/tags/mysql"
-  pre = '<i class="fas fa-fw fa-database"></i>'
+  pre = '<i class="fas fa-fw fa-database me-1"></i>'
   weight = 3
 [[main]]
   parent = "tags"
   name = "HTML"
   url = "zh-cn/tags/html"
-  pre = '<i class="fab fa-fw fa-html5"></i>'
+  pre = '<i class="fab fa-fw fa-html5 me-1"></i>'
   weight = 4
 [[main]]
   parent = "tags"
   name = "JavaScript"
   url = "zh-cn/tags/mysql"
-  pre = '<i class="fab fa-fw fa-js"></i>'
+  pre = '<i class="fab fa-fw fa-js me-1"></i>'
   weight = 5
 [[main]]
   parent = "tags"
   name = "CSS"
   url = "zh-cn/tags/css"
-  pre = '<i class="fab fa-fw fa-css3"></i>'
+  pre = '<i class="fab fa-fw fa-css3 me-1"></i>'
   weight = 6
 [[main]]
   parent = "tags"
   name = "所有标签"
   url = "zh-cn/tags"
-  pre = '<i class="fas fa-fw fa-tags"></i>'
+  pre = '<i class="fas fa-fw fa-tags me-1"></i>'
   weight = 100
 
 [[main]]
@@ -77,7 +77,7 @@
   identifier = "series"
   weight = 40
   url = "zh-cn/series"
-  pre = '<i class="fas fa-fw fa-columns"></i>'
+  pre = '<i class="fas fa-fw fa-columns me-1"></i>'
 
 [[main]]
   name = "项目"
