@@ -39,3 +39,7 @@ customJS = [
 
 [repo]
   url = "https://github.com/razonyang/blog"
+
+[post]
+  numberifyHeadings = true
+  numberifyHeadingsSeparator = "."
