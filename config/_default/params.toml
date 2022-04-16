@@ -43,3 +43,7 @@ customJS = [
 [post]
   numberifyHeadings = true
   numberifyHeadingsSeparator = "."
+
+[codeBlock]
+  maxLines = 10
+  lineNos = false
