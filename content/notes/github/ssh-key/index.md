@@ -1,6 +1,7 @@
 +++
 type = "docs"
 title = "添加 SSH 秘钥到 GitHub"
+linkTitle = "添加 SSH 秘钥"
 date = 2022-04-17T03:07:17+08:00
 # description = "" # Used by description meta tag, summary will be used instead if not set or empty.
 featured = true
