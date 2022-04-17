@@ -75,6 +75,6 @@
   },
   "name": "examplesite",
   "scripts": {
-    "build": "webpack"
+    "serve": "hugo server --disableFastRender"
   }
 }
