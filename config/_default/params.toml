@@ -48,3 +48,7 @@ customJS = [
 [codeBlock]
   maxLines = 10
   lineNos = false
+
+[fullWidth]
+  posts = false
+  notes = true
