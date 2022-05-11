@@ -29,3 +29,14 @@ jobs:
         with:
           push: true
           tags: ccr.ccs.tencentyun.com/razonyang/blog:latest
+      - uses: actions/checkout@master
+      - name: deploy to cluster
+        uses: steebchen/kubectl@v2.0.0
+        with: # defaults to latest kubectl binary version
+          config: ${{ secrets.KUBE_CONFIG_DATA }}
+          command: set image --record deployment/blog blog=ccr.ccs.tencentyun.com/razonyang/blog -n razonyang
+      - name: verify deployment
+        uses: steebchen/kubectl@v2.0.0
+        with:
+          config: ${{ secrets.KUBE_CONFIG_DATA }}
+          command: rollout status deployment/blog -n razonyang
