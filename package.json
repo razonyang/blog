@@ -75,6 +75,6 @@
   },
   "name": "examplesite",
   "scripts": {
-    "serve": "hugo server --disableFastRender"
+    "serve": "hugo server --disableFastRender -D"
   }
 }
