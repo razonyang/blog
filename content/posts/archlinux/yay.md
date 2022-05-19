@@ -18,7 +18,7 @@ YAY（Yet another Yogurt） 是 Arch Linux 的一个 AUR（Arch User Repository�
 ```shell
 $ git clone https://aur.archlinux.org/yay
 $ cd yay
-$ makepkg -si
+$ GOPROXY=https://goproxy.cn makepkg -si
 ```
 
 如果没法 git clone，可以到 [YAY][1] 软件包页面下载快照并解压。
