@@ -7,7 +7,7 @@ on:
       - 'main'
 
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-latest
     steps:
       -
@@ -29,14 +29,22 @@ jobs:
         with:
           push: true
           tags: ccr.ccs.tencentyun.com/razonyang/blog:latest
-      - uses: actions/checkout@master
-      - name: deploy to cluster
-        uses: steebchen/kubectl@v2.0.0
-        with: # defaults to latest kubectl binary version
-          config: ${{ secrets.KUBE_CONFIG_DATA }}
-          command: set image deployment/blog blog=ccr.ccs.tencentyun.com/razonyang/blog:latest -n razonyang
-      - name: verify deployment
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - 
+        name: Checkout
+        uses: actions/checkout@master
+      - 
+        name: Deploy to cluster
         uses: steebchen/kubectl@v2.0.0
         with:
           config: ${{ secrets.KUBE_CONFIG_DATA }}
-          command: rollout status deployment/blog -n razonyang
+          command: set image deployment/blog blog=ccr.ccs.tencentyun.com/razonyang/blog:latest -n blog
+      - 
+        name: Verify deployment
+        uses: steebchen/kubectl@v2.0.0
+        with:
+          config: ${{ secrets.KUBE_CONFIG_DATA }}
+          command: rollout status deployment/blog -n blog
