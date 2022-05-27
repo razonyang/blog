@@ -40,7 +40,9 @@ $ sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GR
 
 ### 修改配置
 
-配置文件位于 `/etc/default/grub`，可按情况自行修改。对于双系统，需要将其中的 `GRUB_DISABLE_OS_PROBER` 设为 `false`，默认是注释了的，取消注释即可。
+配置文件位于 `/etc/default/grub`，可按情况自行修改。
+
+> 对于双系统，需要将其中的 `GRUB_DISABLE_OS_PROBER` 设为 `false`，默认是注释了的，取消注释即可。
 
 ### 生成配置
 
