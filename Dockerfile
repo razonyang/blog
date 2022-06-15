@@ -14,7 +14,7 @@ RUN npm install
 RUN npm install -g @fullhuman/postcss-purgecss rtlcss
 
 # Build site
-RUN GOPROXY=https://proxy.golang.com.cn,direct GO111MODULE=on hugo --minify
+RUN GOPROXY=https://proxy.golang.com.cn,direct GO111MODULE=on hugo --minify --gc --enableGitInfo
 
 ###############
 # Final Stage #
