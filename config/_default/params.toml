@@ -52,3 +52,7 @@ customJS = [
 [fullWidth]
   posts = false
   notes = true
+
+[topAppBar]
+  [topAppBar.social]
+    github = "razonyang"
