@@ -12,5 +12,7 @@ setTimeout(function() {
         document.body.prepend(d);
         var topAppBar = document.querySelector('.top-app-bar') as HTMLHtmlElement;
         topAppBar.style = 'top: 2rem;';
+
+        document.querySelector('main').style = 'margin-top: calc(92px + 2rem);';
     }
 }, 2000);
