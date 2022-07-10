@@ -56,3 +56,5 @@ customJS = [
 [topAppBar]
   [topAppBar.social]
     github = "razonyang"
+    paypal = "razonyang"
+    patreon = "razonyang"
