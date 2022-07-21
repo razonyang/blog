@@ -3,7 +3,7 @@ brand = "RAZON YANG"
 palette = "indigo"
 description = "Web 开发技术博客"
 
-mainSections = ["posts", "docs"]
+mainSections = ["posts", "docs", "blog"]
 
 recentPostCount = 5
 featuredPostCount = 5
