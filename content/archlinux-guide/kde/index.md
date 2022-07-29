@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 40
+navWeight = 40
 +++
 
 在上篇文章，我们安装了 [Xorg]({{< ref "/archlinux-guide/xorg" >}})，本文将介绍如何安装 KDE 桌面环境。

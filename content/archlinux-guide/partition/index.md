@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 80
+navWeight = 80
 +++
 
 本文将介绍如何创建 LVM 分区及其挂载。

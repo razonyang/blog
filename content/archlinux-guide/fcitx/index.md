@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 30
+navWeight = 30
 +++
 
 Arch Linux 安装中文输入法 Fcitx：谷歌拼音和搜狗拼音。

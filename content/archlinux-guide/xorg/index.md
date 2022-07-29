@@ -15,7 +15,7 @@ categories = ["Arch Linux"]
 tags = ["Xorg", "xinit"]
 series = ["Linux"]
 images = []
-weight = 50
+navWeight = 50
 +++
 
 在安装桌面环境之前，我们先安装 Xorg 服务器，确保 Xorg 可以正常工作。

@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 1
+navWeight = 1
 +++
 
 YAY（Yet another Yogurt） 是 Arch Linux 的一个 AUR（Arch User Repository） 助手，可以让我们更方便地安装 AUR 上的软件包，如：QQ、TIM、WPS OFFICE 等等。下面介绍 YAY 的安装和使用。

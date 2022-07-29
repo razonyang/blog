@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 70
+navWeight = 70
 +++
 
 本文简单介绍安装 GRUB 引导程序。

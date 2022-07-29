@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 90
+navWeight = 90
 +++
 
 本文简单说明下如何制作 Arch Linux 的 LiveUSB 安装介质。

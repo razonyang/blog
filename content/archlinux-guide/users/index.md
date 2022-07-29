@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 60
+navWeight = 60
 +++
 
 通常我们不会以 root 用户来使用系统，本文将介绍如何创建一个非特权的用户。

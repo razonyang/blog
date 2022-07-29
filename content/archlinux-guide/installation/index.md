@@ -15,7 +15,7 @@ categories = []
 tags = []
 series = []
 images = []
-weight = 100
+navWeight = 100
 +++
 
 本指南旨在详细地描述搭建 Arch Linux 系统的细节，如磁盘分区、启动引导（GRUB）、网络设置、添加用户、中文输入法、AUR 助手（YAY）、桌面环境（KDE）等等。
