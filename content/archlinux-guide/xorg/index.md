@@ -11,9 +11,9 @@ toc = true
 reward = true
 pinned = false
 carousel = false
-categories = ["Arch Linux"]
+categories = ["Linux"]
 tags = ["Xorg", "xinit"]
-series = ["Linux"]
+series = ["Arch Linux 安装指南"]
 images = []
 navWeight = 50
 +++

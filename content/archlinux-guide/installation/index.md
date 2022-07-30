@@ -13,7 +13,7 @@ pinned = true
 carousel = false
 categories = []
 tags = []
-series = []
+series = ["Arch Linux 安装指南"]
 images = []
 navWeight = 100
 +++

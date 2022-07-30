@@ -11,9 +11,9 @@ toc = true
 reward = true
 pinned = false
 carousel = false
-categories = []
-tags = []
-series = []
+categories = ["Linux"]
+tags = ["Fcitx", "fcitx-googlepinyin", " fcitx-im", "fcitx-configtool"]
+series = ["Arch Linux 安装指南"]
 images = []
 navWeight = 30
 +++

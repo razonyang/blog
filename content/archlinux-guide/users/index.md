@@ -11,9 +11,9 @@ toc = true
 reward = true
 pinned = false
 carousel = false
-categories = []
-tags = []
-series = []
+categories = ["Linux"]
+tags = ["useradd"]
+series = ["Arch Linux 安装指南"]
 images = []
 navWeight = 60
 +++
