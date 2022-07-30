@@ -3,7 +3,7 @@ title = "Razon Yang"
 theme = "github.com/razonyang/hugo-theme-bootstrap"
 copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
 
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "zh-hans"
 defaultContentLanguageInSubdir = true
 
 enableRobotsTXT = true
