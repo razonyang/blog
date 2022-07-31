@@ -8,6 +8,7 @@ mainSections = ["posts", "docs", "blog"]
 recentPostCount = 5
 featuredPostCount = 5
 tocWordCount = 1
+fullWidth = false
 
 customCSS = [
 ]
@@ -48,10 +49,6 @@ customJS = [
 [codeBlock]
   maxLines = 10
   lineNos = false
-
-[fullWidth]
-  posts = false
-  notes = true
 
 [topAppBar]
   [topAppBar.social]
