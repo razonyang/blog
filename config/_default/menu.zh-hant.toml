@@ -1,89 +1,9 @@
 [[main]]
-  name = "分類"
-  identifier = "categories"
-  weight = 20
-  url = "zh-tw/categories"
-  pre = '<i class="fas fa-fw fa-folder me-1"></i>'
-[[main]]
-  parent = "categories"
-  name = "Programing"
-  url = "zh-tw/categories/programing"
-  pre = '<i class="fas fa-fw fa-code me-1"></i>'
+  name = "博客"
+  identifier = "blog"
   weight = 1
-[[main]]
-  parent = "categories"
-  name = "Linux"
-  url = "zh-tw/categories/linux"
-  pre = '<i class="fab fa-fw fa-linux me-1"></i>'
-  weight = 2
-[[main]]
-  parent = "categories"
-  name = "Server"
-  url = "zh-tw/categories/server"
-  pre = '<i class="fas fa-fw fa-server me-1"></i>'
-  weight = 3
-[[main]]
-  parent = "categories"
-  name = "所有分類"
-  url = "zh-tw/categories"
-  pre = '<i class="fas fa-fw fa-folder me-1"></i>'
-  weight = 100
-
-[[main]]
-  name = "標籤"
-  identifier = "tags"
-  weight = 30
-  url = "zh-tw/tags"
-  pre = '<i class="fas fa-fw fa-tags me-1"></i>'
-[[main]]
-  parent = "tags"
-  name = "PHP"
-  url = "zh-tw/tags/php"
-  pre = '<i class="fab fa-fw fa-php me-1"></i>'
-  weight = 1
-[[main]]
-  parent = "tags"
-  name = "Go"
-  url = "zh-tw/tags/go"
-  pre = '<i class="fab fa-fw fa-google me-1"></i>'
-  weight = 2
-[[main]]
-  parent = "tags"
-  name = "MySQL"
-  url = "zh-tw/tags/mysql"
-  pre = '<i class="fas fa-fw fa-database me-1"></i>'
-  weight = 3
-[[main]]
-  parent = "tags"
-  name = "HTML"
-  url = "zh-tw/tags/html"
-  pre = '<i class="fab fa-fw fa-html5 me-1"></i>'
-  weight = 4
-[[main]]
-  parent = "tags"
-  name = "JavaScript"
-  url = "zh-tw/tags/mysql"
-  pre = '<i class="fab fa-fw fa-js me-1"></i>'
-  weight = 5
-[[main]]
-  parent = "tags"
-  name = "CSS"
-  url = "zh-tw/tags/css"
-  pre = '<i class="fab fa-fw fa-css3 me-1"></i>'
-  weight = 6
-[[main]]
-  parent = "tags"
-  name = "所有標籤"
-  url = "zh-tw/tags"
-  pre = '<i class="fas fa-fw fa-tags me-1"></i>'
-  weight = 100
-
-[[main]]
-  name = "專欄"
-  identifier = "series"
-  weight = 40
-  url = "zh-tw/series"
-  pre = '<i class="fas fa-fw fa-columns me-1"></i>'
+  [main.params]
+    icon = '<i class="fas fa-fw fa-blog"></i>'
 
 [[main]]
   name = "項目"
@@ -91,17 +11,21 @@
   weight = 100
 [[main]]
   parent = "projects"
+  name = "HBS 主題"
+  url = "https://github.com/razonyang/hugo-theme-bootstrap"
+  [main.params]
+    icon = '<i class="fab fa-fw fa-bootstrap" style="color: #7511f6;"></i>'
+    description = "Hugo Bootstrap 主題"
+[[main]]
+  parent = "projects"
   name = "CleverGo"
   url = "https://clevergo.tech/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-lightbulb" style="color: #79d4fd;"></i>'
+    description = "CleverGo Web 框架"
 [[main]]
   parent = "projects"
-  name = "GOPKGS"
-  url = "https://gopkgs.net/"
-[[main]]
-  parent = "projects"
-  name = "Yii 2 管理後台"
+  name = "Yii2 管理後台"
   url = "https://admin.yii2.razonyang.com/"
-[[main]]
-  parent = "projects"
-  name = "Hugo Bootstrap 主題"
-  url = "https://github.com/razonyang/hugo-theme-bootstrap"
+  [main.params]
+    description = "Yii2 管理後台系統"

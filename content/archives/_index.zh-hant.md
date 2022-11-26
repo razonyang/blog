@@ -1,6 +1,8 @@
 +++
 title = "歸檔"
 [menu.main]
+  parent = "blog"
   weight = 10
-  pre = '<i class="fas fa-fw fa-file-archive"></i>'
+  [menu.main.params]
+    icon = '<i class="fas fa-fw fa-file-archive text-primary"></i>'
 +++

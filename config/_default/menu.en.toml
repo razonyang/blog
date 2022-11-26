@@ -1,23 +1,9 @@
 [[main]]
-  name = "Categories"
-  identifier = "categories"
-  weight = 20
-  url = "en/categories"
-  pre = '<i class="fas fa-fw fa-folder me-1"></i>'
-
-[[main]]
-  name = "Tags"
-  identifier = "tags"
-  weight = 30
-  url = "en/tags"
-  pre = '<i class="fas fa-fw fa-tags me-1"></i>'
-
-[[main]]
-  name = "Series"
-  identifier = "series"
-  weight = 40
-  url = "en/series"
-  pre = '<i class="fas fa-fw fa-columns me-1"></i>'
+  name = "Blog"
+  identifier = "blog"
+  weight = 1
+  [main.params]
+    icon = '<i class="fas fa-fw fa-blog"></i>'
 
 [[main]]
   name = "Projects"
@@ -25,17 +11,21 @@
   weight = 100
 [[main]]
   parent = "projects"
+  name = "HBS Theme"
+  url = "https://github.com/razonyang/hugo-theme-bootstrap"
+  [main.params]
+    icon = '<i class="fab fa-fw fa-bootstrap" style="color: #7511f6;"></i>'
+    description = "Hugo Bootstrap Theme"
+[[main]]
+  parent = "projects"
   name = "CleverGo"
   url = "https://clevergo.tech/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-lightbulb" style="color: #79d4fd;"></i>'
+    description = "CleverGo Web Framework"
 [[main]]
   parent = "projects"
-  name = "GOPKGS"
-  url = "https://gopkgs.net/"
-[[main]]
-  parent = "projects"
-  name = "Yii 2 Admin"
+  name = "Yii2 Admin"
   url = "https://admin.yii2.razonyang.com/"
-[[main]]
-  parent = "projects"
-  name = "Hugo Bootstrap Theme"
-  url = "https://github.com/razonyang/hugo-theme-bootstrap"
+  [main.params]
+    description = "Yii2 Admin System"

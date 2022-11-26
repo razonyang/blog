@@ -1,9 +1,10 @@
 +++
 title = "分类"
 [menu.main]
-  name = "分类"
+  parent = "blog"
   identifier = "categories"
   weight = 20
-  url = "zh-cn/categories"
-  pre = '<i class="fas fa-fw fa-folder"></i>'
+  [menu.main.params]
+    icon = '<i class="fas fa-fw fa-folder text-warning"></i>'
+    description = "分类列表"
 +++
