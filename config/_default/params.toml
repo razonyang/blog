@@ -55,3 +55,8 @@ customJS = [
     github = "razonyang"
     paypal = "razonyang"
     patreon = "razonyang"
+
+[algolia]
+  appId = "ZHJF8OXEQI"
+  apiKey = "5d5b25932b8458c3092abc7e3f105c71"
+  indexName = "prod"
