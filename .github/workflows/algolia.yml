@@ -1,0 +1,20 @@
+name: Algolia Index
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build & upload Algolia index
+        uses: razonyang/hugo-theme-bootstrap-algolia-action@v0.1.0
+        with:
+          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          algolia-index-name: prod
