@@ -69,13 +69,13 @@ Number  Start    End        Size       File system  Name                  Flags
 ## LVM 物理卷
 
 ```bash
-$ pvcreate /dev/nvme1n1
+$ pvcreate /dev/nvme1n1p2
 ```
 
 ## LVM 卷组
 
 ```bash
-$ vgcreate vg0 /dev/nvme1n1
+$ vgcreate vg0 /dev/nvme1n1p2
 ```
 
 - `vg0` 是卷组的名称，可自行修改。
