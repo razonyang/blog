@@ -1,0 +1,31 @@
+main:
+  - name: Projects
+    identifier: projects
+    weight: 100
+    params:
+      header: My Open Source Projects.
+      icon:
+        vendor: bs
+        name: boxes
+
+  - name: Hugo Modules
+    parent: projects
+    url: https://hugomods.com/
+    weight: 1
+    params:
+      icon:
+        vendor: simple
+        name: hugo
+        color: '#FF3D86'
+      description: Hugo Modules for building modular themes and static sites quickly.
+
+  - name: HB Framework
+    parent: projects
+    url: https://hbstack.dev/
+    weight: 2
+    params:
+      icon:
+        vendor: simple
+        name: bootstrap
+        color: '#7952B3'
+      description: Building fast, modern and modular static sites with Hugo and Bootstrap.

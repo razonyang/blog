@@ -1,0 +1,31 @@
+main:
+  - name: 項目
+    identifier: projects
+    weight: 100
+    params:
+      header: 我的開源項目。
+      icon:
+        vendor: bs
+        name: boxes
+
+  - name: Hugo 模塊
+    parent: projects
+    url: https://hugomods.com/
+    weight: 1
+    params:
+      icon:
+        vendor: simple
+        name: hugo
+        color: '#FF3D86'
+      description: 用於快速地構建模塊化的主題和靜態網站的 Hugo 模塊。
+
+  - name: HB 框架
+    parent: projects
+    url: https://hbstack.dev/
+    weight: 2
+    params:
+      icon:
+        vendor: simple
+        name: bootstrap
+        color: '#7952B3'
+      description: 利用 Hugo 和 Bootstrap 構建快速、現代化和模塊化的靜態網站。
