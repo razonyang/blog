@@ -2,7 +2,7 @@
 title: "ExplorerPatcher"
 description: "ExplorerPatcher 是一个免费开源的软件，其旨在增强和改善 Windows 上的工作环境，包括任务栏、开始菜单和文件资源管理器等设置。"
 date: 2023-07-13T11:44:10+08:00
-draft: true
+draft: false
 featured: true
 pinned: true
 series:
