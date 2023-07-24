@@ -35,6 +35,7 @@ github.com/hbstack/meta/content v0.4.4 h1:hNDng3htcTf3j9H3gX5eKImg/FGp0S7dg6MFxs
 github.com/hbstack/meta/content v0.4.4/go.mod h1:3bpUZ62pwPNjklm3Z0BKOyATbB5tEy1ZVVMQJG96MO4=
 github.com/hbstack/meta/footer v0.2.3 h1:Q+9pXd1F9uncXduFBdPOFVQO9q0YRS9QPEqH569/lfc=
 github.com/hbstack/meta/footer v0.2.3/go.mod h1:ZQCwngu7ox/0g1xQUMa26faQYkwUqVzsmZDDkTEICvc=
+github.com/hbstack/meta/footer v0.2.4/go.mod h1:9fH3M3f1f9t2EjLPcitmKZxXb4RifXfiAVxnxKEutic=
 github.com/hbstack/meta/header v0.2.3 h1:xdsM7Nr/0Wj/AEhCT22G6nAGtDBl9w08erp54InwR9A=
 github.com/hbstack/meta/header v0.2.3/go.mod h1:0c6VrR2+NPNur8juSV65iwLkaJ9q3scfDexIDjIvFOQ=
 github.com/hbstack/meta/recommended v0.2.3 h1:Rt4diCSvt45ypUZ/9rrAQCfFz7W3IAeTaIAjKm8/9W4=
