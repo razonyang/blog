@@ -5,6 +5,9 @@ title = "标签"
   identifier = "tags"
   weight = 20
   [menu.main.params]
-    icon = '<i class="fas fa-fw fa-tags text-success"></i>'
-    description = "标签列表"
+    description = "标签列表。"
+  [menu.main.params.icon]
+    vendor = "fas"
+    name = "tags"
+    color = "green"
 +++

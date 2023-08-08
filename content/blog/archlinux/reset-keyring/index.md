@@ -8,7 +8,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Development"]
 tags = ["ArchLinux"]
 series = []

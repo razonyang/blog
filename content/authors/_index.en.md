@@ -5,5 +5,9 @@ title = "Authors"
   identifier = "authors"
   weight = 20
   [menu.main.params]
-    icon = '<i class="fas fa-fw fa-user text-danger"></i>'
+  description = "Authors list."
+  [menu.main.params.icon]
+  vendor = "bs"
+  name = "pencil"
+  className = "text-info"
 +++

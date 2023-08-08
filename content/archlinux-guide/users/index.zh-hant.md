@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["useradd"]
 series = ["Arch Linux 安裝指南"]
 images = []
-navWeight = 60
+nav_weight = 60
 +++
 
 通常我們不會以 root 用戶來使用系統，本文將介紹如何創建一個非特權的用戶。

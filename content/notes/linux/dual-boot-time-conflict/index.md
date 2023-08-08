@@ -9,7 +9,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Windows", "Linux"]
 tags = ["Dual Boot", "hardware clock", "system-clock", "UTC", "localtime"]
 series = ["System"]

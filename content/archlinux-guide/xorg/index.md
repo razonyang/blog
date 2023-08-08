@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["Xorg", "xinit"]
 series = ["Arch Linux 安装指南"]
 images = []
-navWeight = 50
+nav_weight = 50
 +++
 
 在安装桌面环境之前，我们先安装 Xorg 服务器，确保 Xorg 可以正常工作。

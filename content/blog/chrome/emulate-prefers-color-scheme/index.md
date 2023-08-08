@@ -9,7 +9,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Chrome"]
 tags = ["prefers-color-scheme", "深色模式", "Google 浏览器"]
 series = ["Web"]

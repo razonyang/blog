@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["GRUB"]
 series = ["Arch Linux 安装指南"]
 images = []
-navWeight = 70
+nav_weight = 70
 +++
 
 本文简单介绍安装 GRUB 引导程序。

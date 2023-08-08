@@ -10,7 +10,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["CSS", "SCSS"]
 tags = ["counter", "counter-reset", "counter-increment"]
 series = ["Web"]

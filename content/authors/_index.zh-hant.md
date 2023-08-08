@@ -5,6 +5,9 @@ title = "作者"
   identifier = "authors"
   weight = 20
   [menu.main.params]
-    icon = '<i class="fas fa-fw fa-user text-danger"></i>'
-    description = "作者列表"
+    description = "作者列表。"
+  [menu.main.params.icon]
+  vendor = "bs"
+  name = "pencil"
+  className = "text-info"
 +++

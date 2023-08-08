@@ -8,7 +8,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["HUGO"]
 tags = ["HUGO_MODULE_PROXY", "MODULE", "GO_PROXY"]
 series = []
@@ -45,9 +44,9 @@ Error: failed to get ["-d" "github.com/razonyang/hugo-theme-bootstrap@master"]: 
 
 後來搜索了下才知道，Hugo 遵循 `HUGO_MODULE_PROXY` 環境變量，而非 `GOPROXY`，除此之外還可以在配置文件中指定代理服務器：
 
-{{< code-toggle filename="config" >}}
+{{< bs/config-toggle filename="config" >}}
 [module]
   proxy = "https://goproxy.cn"
-{{< /code-toggle >}}
+{{< /bs/config-toggle >}}
 
 至於之前爲甚麼更新時而成功時而失敗，也許是因爲開了全局 VPN。

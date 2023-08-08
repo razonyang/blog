@@ -4,5 +4,9 @@ title = "歸檔"
   parent = "blog"
   weight = 10
   [menu.main.params]
-    icon = '<i class="fas fa-fw fa-file-archive text-primary"></i>'
+  description = "文章歸檔。"
+  [menu.main.params.icon]
+  vendor = "bs"
+  name = "archive"
+  className = "text-primary"
 +++

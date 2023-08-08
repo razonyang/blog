@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["LiveUSB"]
 series = ["Arch Linux 安裝指南"]
 images = []
-navWeight = 90
+nav_weight = 90
 +++
 
 本文簡單說明下如何製作 Arch Linux 的 LiveUSB 安裝介質。

@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["KDE", "xinit", "SDDM"]
 series = ["Arch Linux 安装指南"]
 images = []
-navWeight = 40
+nav_weight = 40
 +++
 
 在上篇文章，我们安装了 [Xorg]({{< ref "/archlinux-guide/xorg" >}})，本文将介绍如何安装 KDE 桌面环境。

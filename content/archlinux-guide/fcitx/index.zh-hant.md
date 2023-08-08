@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["Fcitx", "fcitx-googlepinyin", " fcitx-im", "fcitx-configtool"]
 series = ["Arch Linux 安裝指南"]
 images = []
-navWeight = 30
+nav_weight = 30
 +++
 
 Arch Linux 安裝中文輸入法 Fcitx：谷歌拼音和搜狗拼音。

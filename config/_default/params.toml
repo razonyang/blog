@@ -1,62 +1,21 @@
-author = "Razon Yang"
-brand = "RAZON YANG"
-palette = "indigo"
 description = "Web 开发技术博客"
 
-mainSections = ["posts", "docs", "blog"]
-
-recentPostCount = 5
-featuredPostCount = 5
-tocWordCount = 1
-fullWidth = false
-
-customCSS = [
-]
-customJS = [
-]
-
-[beian]
-  no = "粤公网安备44040302000341号"
-  link = "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44040302000341"
-  icpNo = "粤ICP备20043980号"
-  icpLink = "http://beian.miit.gov.cn/"
-
-[reward]
-  wechat = "/images/reward/wechat.webp"
-  alipay = "/images/reward/alipay.webp"
-
 [pwa]
-  [pwa.minifest]
-    short_name = "Razon"
+debug = false
+icon_path = "images/logo.jpg"
 
-[contact]
-  endpoint = "https://formspree.io/f/mnqwqgvr"
+[seo.favicons]
+icon = "images/logo.jpg"
 
-[creativeCommons]
-  # by = true # Credit must be given to you, the creator.
-  # nc = true # Only noncommercial use of your work is permitted.
-  # nd = true # No derivatives or adaptations of your work are permitted.
-  # sa = true # Adaptations must be shared under the same terms.
+[hb]
+logo = "images/logo.jpg"
 
-[repo]
-  url = "https://github.com/razonyang/blog"
+[hb.header.socials]
+gmail = "razonyang@gmail.com"
+github = "razonyang"
+twitter = "razonyang"
+paypal = "razonyang"
 
-[post]
-  numberifyHeadings = true
-  numberifyHeadingsSeparator = "."
-  featuredImage = true
-
-[codeBlock]
-  maxLines = 10
-  lineNos = false
-
-[topAppBar]
-  [topAppBar.social]
-    github = "razonyang"
-    paypal = "razonyang"
-    patreon = "razonyang"
-
-[algolia]
-  appId = "ZHJF8OXEQI"
-  apiKey = "5d5b25932b8458c3092abc7e3f105c71"
-  indexName = "prod"
+[hb.footer.beian]
+number = "粤公网安备44040302000341号"
+icp_number = "粤ICP备20043980号"

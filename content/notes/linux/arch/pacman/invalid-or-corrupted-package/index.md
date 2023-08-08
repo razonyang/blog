@@ -10,7 +10,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Arch Linux"]
 tags = ["pacman", "archlinux-keyring"]
 series = ["Linux"]

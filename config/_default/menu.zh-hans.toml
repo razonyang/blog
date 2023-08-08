@@ -3,29 +3,58 @@
   identifier = "blog"
   weight = 1
   [main.params]
-    icon = '<i class="fas fa-fw fa-blog"></i>'
+  [main.params.icon]
+    vendor = "fas"
+    name = "blog"
 
 [[main]]
   name = "项目"
   identifier = "projects"
   weight = 100
+  [main.params.icon]
+    vendor = "bs"
+    name = "boxes"
+[[main]]
+  parent = "projects"
+  name = "Hugo 模块"
+  url = "https://github.com/hugomods"
+  weight = 1
+  [main.params]
+    description = "用于快速地构建模块化的主题和静态网站的 Hugo 模块。"
+  [main.params.icon]
+    vendor = "simple"
+    name = "hugo"
+    color = "#FF4088"
+[[main]]
+  parent = "projects"
+  name = "HB 框架"
+  weight = 2
+  url = "https://github.com/hbstack"
+  [main.params]
+    description = "利用 Hugo 和 Bootstrap 构建快速、现代化和模块化的静态网站。"
+  [main.params.icon]
+    vendor = "bs"
+    name = "bootstrap"
+    color = "#7511f6"
 [[main]]
   parent = "projects"
   name = "HBS 主题"
+  weight = 3
   url = "https://github.com/razonyang/hugo-theme-bootstrap"
   [main.params]
-    icon = '<i class="fab fa-fw fa-bootstrap" style="color: #7511f6;"></i>'
-    description = "Hugo Bootstrap 主题"
+    description = "基于 Hugo 和 Bootstrap 的博客主题。"
+  [main.params.icon]
+    vendor = "bs"
+    name = "bootstrap"
+    color = "#7511f6"
 [[main]]
   parent = "projects"
   name = "CleverGo"
+  weight = 4
   url = "https://clevergo.tech/"
   [main.params]
-    icon = '<i class="fas fa-fw fa-lightbulb" style="color: #79d4fd;"></i>'
-    description = "CleverGo Web 框架"
-[[main]]
-  parent = "projects"
-  name = "Yii2 管理后台"
-  url = "https://admin.yii2.razonyang.com/"
-  [main.params]
-    description = "Yii2 管理后台系统"
+    description = "CleverGo Web 框架。"
+  [main.params.icon]
+    vendor = "simple"
+    name = "go"
+    color = "#79d4fd"

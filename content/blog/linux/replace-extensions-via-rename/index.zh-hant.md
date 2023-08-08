@@ -8,7 +8,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["rename"]
 series = []

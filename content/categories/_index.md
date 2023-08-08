@@ -5,6 +5,9 @@ title = "分类"
   identifier = "categories"
   weight = 20
   [menu.main.params]
-    icon = '<i class="fas fa-fw fa-folder text-warning"></i>'
-    description = "分类列表"
+    description = "分类列表。"
+  [menu.main.params.icon]
+  vendor = "bs"
+  name = "folder"
+  className = "text-warning"
 +++

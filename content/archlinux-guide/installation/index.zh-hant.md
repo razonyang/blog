@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = true
-carousel = false
 categories = []
 tags = []
 series = ["Arch Linux 安裝指南"]
 images = []
-navWeight = 100
+nav_weight = 100
 +++
 
 本指南旨在詳細地描述搭建 Arch Linux 系統的細節，如磁盤分區、啓動引導（GRUB）、網絡設置、添加用戶、中文輸入法、AUR 助手（YAY）、桌面環境（KDE）等等。

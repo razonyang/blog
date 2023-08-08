@@ -10,12 +10,11 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["Linux"]
 tags = ["分區", "Swap", "LVM"]
 series = ["Arch Linux 安裝指南"]
 images = []
-navWeight = 80
+nav_weight = 80
 +++
 
 本文將介紹如何創建 LVM 分區及其掛載。

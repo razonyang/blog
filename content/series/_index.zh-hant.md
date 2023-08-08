@@ -5,6 +5,8 @@ title = "專欄"
   identifier = "series"
   weight = 20
   [menu.main.params]
-    icon = '<i class="fas fa-fw fa-columns text-info"></i>'
-    description = "專欄列表"
+    description = "專欄列表。"
+  [menu.main.params.icon]
+  vendor = "bs"
+  name = "columns"
 +++

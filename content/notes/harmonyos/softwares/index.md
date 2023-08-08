@@ -10,7 +10,6 @@ comment = true
 toc = true
 reward = true
 pinned = false
-carousel = false
 categories = ["HarmonyOS", "鸿蒙操作系统"]
 tags = ["Aegis"]
 series = ["Softwares"]
