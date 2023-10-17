@@ -4,6 +4,7 @@ github.com/KaTeX/KaTeX v0.16.8 h1:9LCA6ID4GvsBrGYdLtc3+zJ0wYuHwQyf7qkr1tEowSg=
 github.com/KaTeX/KaTeX v0.16.8/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 h1:pt/JGVD5YYRsVVijOHPZI6YKTUvbR4e0hgV9B0S6rbI=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003/go.mod h1:mvM05r93HiefwoaxQTaYiJxtJAhTebwQtU1Xh/J+Okk=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/base v0.2.0 h1:BtLH7i8uxUM5TMr1kaaVeJ/Yu/5FeZJ1MquxPFXgpNU=
 github.com/hbstack/base v0.2.0/go.mod h1:f0mafnZoiQ3YYvRb82o605NEQVbQ3wzRYzhW4PZjrJ4=
@@ -31,6 +32,7 @@ github.com/hbstack/heading-sign v0.1.3 h1:bkyBAwTETrbLqPBM89EuSscgLt2MOrmEPSeooe
 github.com/hbstack/heading-sign v0.1.3/go.mod h1:uR6DdjYDoLDFanc8kSglEe/08GyNyQBmyNEJ6Z1KRAg=
 github.com/hbstack/meta/blog v0.2.4 h1:XqCVJxwvhCQEzOwXy4/LljDt6jG+t9ygKojgPdxm+GQ=
 github.com/hbstack/meta/blog v0.2.4/go.mod h1:dY6vgjYmkjcMOfbQxlPmTE0Kilf/9/EB33NejfZ7r9U=
+github.com/hbstack/meta/blog v0.2.11/go.mod h1:GY06IFyO0MTRwILILwBVp55f3UWJHZvsEFQIwKra098=
 github.com/hbstack/meta/content v0.4.4 h1:hNDng3htcTf3j9H3gX5eKImg/FGp0S7dg6MFxsdVoNA=
 github.com/hbstack/meta/content v0.4.4/go.mod h1:3bpUZ62pwPNjklm3Z0BKOyATbB5tEy1ZVVMQJG96MO4=
 github.com/hbstack/meta/footer v0.2.3 h1:Q+9pXd1F9uncXduFBdPOFVQO9q0YRS9QPEqH569/lfc=
@@ -56,6 +58,7 @@ github.com/henrygd/bigger-picture v1.1.8 h1:C349KN8/efgIyTxGvrrx746xEWp03WWzuRRy
 github.com/henrygd/bigger-picture v1.1.8/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxpH9Cah/ygAraOBIk=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
 github.com/hugomods/base v0.1.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.2.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/bootstrap v0.7.2 h1:hb8G5aDp/1tITmpr1N0eI3yO5QgHtcXq/ymWhRylLm4=
 github.com/hugomods/bootstrap v0.7.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
@@ -86,3 +89,4 @@ github.com/hugomods/simple-icons v9.4.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o
 github.com/krisk/Fuse v6.6.2+incompatible h1:laigOpZFs/xUi9zGjVu5t19bcvzRVufoXCnPSgQZmYI=
 github.com/krisk/Fuse v6.6.2+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
