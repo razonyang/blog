@@ -83,6 +83,7 @@ github.com/hugomods/search v0.4.4 h1:g94Qc2zffh8ZRfSJUd7rAmgj7QWOAQgT/pPNN/skITs
 github.com/hugomods/search v0.4.4/go.mod h1:xdMNL0R06eMDyl8LVoFNp19lnFSNMFT+oje8j8N/WbI=
 github.com/hugomods/simple-icons v9.4.0+incompatible h1:6H0J9JAMtzhWscv8GQVs4IinMXU2zPFcgsfXlvn2K+M=
 github.com/hugomods/simple-icons v9.4.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v9.21.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/krisk/Fuse v6.6.2+incompatible h1:laigOpZFs/xUi9zGjVu5t19bcvzRVufoXCnPSgQZmYI=
 github.com/krisk/Fuse v6.6.2+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
