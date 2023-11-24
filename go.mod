@@ -36,12 +36,12 @@ require (
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.1 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.0 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.2 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.0 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.7.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/pwa v0.3.0 // indirect
+	github.com/hugomods/pwa v0.7.0 // indirect
 	github.com/hugomods/search v0.4.4 // indirect
 	github.com/hugomods/simple-icons v9.4.0+incompatible // indirect
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
