@@ -16,6 +16,10 @@ require (
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.3.8 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.3.0 // indirect
+	github.com/hbstack/blog/modules/sidebar/posts v0.7.1 // indirect
+	github.com/hbstack/blog/modules/sidebar/profile v1.2.0 // indirect
+	github.com/hbstack/blog/modules/sidebar/taxonomies v0.4.0 // indirect
+	github.com/hbstack/blog/modules/sticky-till-the-end v0.1.0 // indirect
 	github.com/hbstack/bootstrap v0.2.2 // indirect
 	github.com/hbstack/breadcrumb v0.6.0 // indirect
 	github.com/hbstack/carousel v0.2.5 // indirect
@@ -25,9 +29,11 @@ require (
 	github.com/hbstack/docs/modules/doc-nav v0.3.6 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
+	github.com/hbstack/docs/modules/sticky-till-the-end v0.1.0 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
 	github.com/hbstack/footer/modules/beian v0.1.4 // indirect
+	github.com/hbstack/footer/modules/observer v0.1.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.3.0 // indirect
 	github.com/hbstack/hb v0.12.2 // indirect
 	github.com/hbstack/header v0.14.3 // indirect
@@ -49,6 +55,7 @@ require (
 	github.com/hbstack/socials v0.14.1 // indirect
 	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
+	github.com/hbstack/theme-cards v0.1.1 // indirect
 	github.com/henrygd/bigger-picture v1.1.16 // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.6.0 // indirect
