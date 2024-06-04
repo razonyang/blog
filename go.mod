@@ -22,7 +22,7 @@ require (
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.13 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
-	github.com/hbstack/breadcrumb v0.5.0 // indirect
+	github.com/hbstack/breadcrumb v0.7.1 // indirect
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.7.0 // indirect
@@ -38,7 +38,7 @@ require (
 	github.com/hbstack/footer v0.2.7 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
-	github.com/hbstack/hb v0.7.2 // indirect
+	github.com/hbstack/hb v0.12.2 // indirect
 	github.com/hbstack/header v0.12.1 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.22 // indirect
 	github.com/hbstack/header/modules/search v0.1.32 // indirect
@@ -61,14 +61,14 @@ require (
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.12 // indirect
-	github.com/hugomods/base v0.4.0 // indirect
+	github.com/hugomods/base v0.5.0 // indirect
 	github.com/hugomods/bootstrap v0.14.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
-	github.com/hugomods/hugopress v0.2.2 // indirect
+	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.2 // indirect
@@ -93,6 +93,6 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.2 // indirect
 )
