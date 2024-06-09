@@ -70,10 +70,10 @@ require (
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.2 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
-	github.com/hugomods/icons v0.6.0 // indirect
+	github.com/hugomods/icons v0.6.3 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.2 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.22 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.41 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.8.3 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
@@ -88,7 +88,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.0 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
 	github.com/hugomods/shortcodes v0.13.2 // indirect
-	github.com/hugomods/simple-icons v10.0.0+incompatible // indirect
+	github.com/hugomods/simple-icons v12.2.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
