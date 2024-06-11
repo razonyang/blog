@@ -8,6 +8,11 @@ seo:
 hb:
   logo: images/logo.jpg
   blog:
+    giscus:
+      repo: razonyang/blog
+      repo_id: MDEwOlJlcG9zaXRvcnkxODM2MDQxMzc=
+      category: General
+      category_id: DIC_kwDOCvGTqc4CTKfR
     post_read_more: false
     home:
       pinned_posts_position: list
@@ -30,6 +35,12 @@ hb:
             id: https://techhub.social/@razonyang
           - name: rss
             id: true
+  docs:
+    giscus:
+      repo: razonyang/blog
+      repo_id: MDEwOlJlcG9zaXRvcnkxODM2MDQxMzc=
+      category: General
+      category_id: DIC_kwDOCvGTqc4CTKfR
   header:
     socials:
       - name: github
