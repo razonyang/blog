@@ -1,0 +1,69 @@
+description: 分享 Web 开发技术
+pwa:
+  debug: false
+  icon_path: images/logo.jpg
+seo:
+  favicons:
+    icon: images/logo.jpg
+hb:
+  logo: images/logo.jpg
+  blog:
+    post_read_more: false
+    home:
+      pinned_posts_position: list
+      taxonomies: false
+    sidebar:
+      position: start
+      profile:
+        avatar: images/logo.jpg
+        name: Razon Yang
+        socials:
+          - name: github
+            id: razonyang
+          - name: githubsponsors
+            id: razonyang
+          - name: paypal
+            id: razonyang
+          - name: gmail
+            id: razonyang@gmail.com
+          - name: mastodon
+            id: https://techhub.social/@razonyang
+          - name: rss
+            id: true
+  header:
+    socials:
+      - name: github
+        id: razonyang
+      - name: githubsponsors
+        id: razonyang
+      - name: paypal
+        id: razonyang
+      - name: gmail
+        id: razonyang@gmail.com
+      - name: mastodon
+        id: https://techhub.social/@razonyang
+      - name: rss
+        id: true
+  footer:
+    beian:
+      number: 粤公网安备44040302000341号
+      icp_number: 粤ICP备20043980号
+    socials:
+      - name: github
+        id: razonyang
+      - name: githubsponsors
+        id: razonyang
+      - name: paypal
+        id: razonyang
+      - name: gmail
+        id: razonyang@gmail.com
+      - name: mastodon
+        id: https://techhub.social/@razonyang
+      - name: rss
+        id: true
+hugopress:
+  modules:
+    hb-custom:
+      hooks:
+        head-end:
+          cacheable: true

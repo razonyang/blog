@@ -1,0 +1,31 @@
+baseurl: 'https://razonyang.com/'
+title: Razon Yang
+copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+defaultContentLanguage: zh-hans
+defaultContentLanguageInSubdir: true
+enableRobotsTXT: true
+enableEmoji: true
+blackfriday:
+  hrefTargetBlank: true
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+build:
+  writeStats: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
+outputs:
+  home:
+    - HTML
+    - Offline
+    - RSS
+    - SearchIndex
+    - WebAppManifest

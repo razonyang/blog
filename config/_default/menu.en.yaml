@@ -1,0 +1,55 @@
+main:
+  - name: Blog
+    identifier: blog
+    weight: 1
+    params:
+      icon:
+        vendor: fas
+        name: blog
+  - name: Projects
+    identifier: projects
+    weight: 100
+    params:
+      icon:
+        vendor: bs
+        name: boxes
+  - parent: projects
+    name: Hugo Modules
+    url: 'https://github.com/hugomods'
+    weight: 1
+    params:
+      description: Hugo Modules for building modular themes and static sites quickly.
+      icon:
+        vendor: simple
+        name: hugo
+        color: '#FF4088'
+  - parent: projects
+    name: HB Framework
+    weight: 2
+    url: 'https://github.com/hbstack'
+    params:
+      description: 'Building fast, modern and modular static sites with Hugo and Bootstrap.'
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7511f6'
+  - parent: projects
+    name: HBS Theme
+    weight: 3
+    url: 'https://github.com/razonyang/hugo-theme-bootstrap'
+    params:
+      description: The blog theme built on top of Hugo and Bootstrap.
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7511f6'
+  - parent: projects
+    name: CleverGo
+    weight: 4
+    url: 'https://clevergo.tech/'
+    params:
+      description: CleverGo Web Framework.
+      icon:
+        vendor: simple
+        name: go
+        color: '#79d4fd'

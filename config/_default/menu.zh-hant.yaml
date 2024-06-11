@@ -1,0 +1,55 @@
+main:
+  - name: 博客
+    identifier: blog
+    weight: 1
+    params:
+      icon:
+        vendor: fas
+        name: blog
+  - name: 項目
+    identifier: projects
+    weight: 100
+    params:
+      icon:
+        vendor: bs
+        name: boxes
+  - parent: projects
+    name: Hugo 模塊
+    url: 'https://github.com/hugomods'
+    weight: 1
+    params:
+      description: 用於快速地構建模塊化的主題和靜態網站的 Hugo 模塊。
+      icon:
+        vendor: simple
+        name: hugo
+        color: '#FF4088'
+  - parent: projects
+    name: HB 框架
+    weight: 2
+    url: 'https://github.com/hbstack'
+    params:
+      description: 利用 Hugo 和 Bootstrap 構建快速、現代化和模塊化的靜態網站。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7511f6'
+  - parent: projects
+    name: HBS 主題
+    weight: 3
+    url: 'https://github.com/razonyang/hugo-theme-bootstrap'
+    params:
+      description: 基於 Hugo 和 Bootstrap 的博客主題。
+      icon:
+        vendor: bs
+        name: bootstrap
+        color: '#7511f6'
+  - parent: projects
+    name: CleverGo
+    weight: 4
+    url: 'https://clevergo.tech/'
+    params:
+      description: CleverGo Web 框架。
+      icon:
+        vendor: simple
+        name: go
+        color: '#79d4fd'
