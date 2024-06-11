@@ -1,5 +1,5 @@
 +++
-title = "笔记"
+title = "Notes"
 [nav_icon]
 vendor = "bs"
 name = "pencil-square"
