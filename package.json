@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "new": "docker compose run -u $(id -u ${USER}):$(id -g ${USER}) server hugo new"
+  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
