@@ -1,0 +1,3 @@
+```sh
+nmcli device wifi connect "<SSID>"
+```
