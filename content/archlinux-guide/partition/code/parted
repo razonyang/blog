@@ -1,0 +1,12 @@
+```sh
+$ parted /dev/nvme1n1
+(parted) mklabel gpt
+(parted) mkpart "EFI system partition" fat32 1MiB 513MiB
+(parted) set 1 esp on
+(parted) mkpart ext4 513MiB 100%
+(parted) print                                                            
+...
+Number  Start    End        Size       File system  Name                  Flags
+ 1      1.00MiB  513MiB     512MiB     fat32        EFI system partition  boot, esp
+ 2      513MiB   476940MiB  476427MiB               ext4
+```

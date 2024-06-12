@@ -14,7 +14,10 @@ categories = ["Linux"]
 tags = ["Xorg", "xinit"]
 series = ["Arch Linux 安装指南"]
 images = []
-nav_weight = 50
+nav_weight = 20
+[nav_icon]
+vendor = "bs"
+name = "window-stack"
 +++
 
 在安装桌面环境之前，我们先安装 Xorg 服务器，确保 Xorg 可以正常工作。

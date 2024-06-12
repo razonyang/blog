@@ -1,0 +1,4 @@
+```sh
+mkdir /mnt/ms-boot
+mount /dev/xxx /mnt/ms-boot
+```

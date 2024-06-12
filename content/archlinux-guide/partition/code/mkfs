@@ -1,0 +1,6 @@
+```sh
+mkfs.fat -F 32 /dev/nvme1n1p1
+mkfs.ext4 /dev/arch/root
+mkfs.ext4 /dev/arch/home
+mkswap /dev/arch/swap
+```

@@ -1,0 +1,3 @@
+```sh
+ls /sys/firmware/efi/efivars
+```

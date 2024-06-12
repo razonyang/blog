@@ -1,0 +1,3 @@
+```conf
+HOOKS=(base udev ... block lvm2 filesystems)
+```

@@ -1,6 +1,7 @@
 +++
 type = "docs"
 title = "安裝 Arch Linux 系統"
+description = "本指南旨在詳細地描述安裝 Arch Linux 系統的細節，如磁盤分區（LVM）、啟動引導（GRUB）、網絡設置、添加用戶、中文輸入法、AUR 助手（YAY）、桌面環境（KDE）等等。"
 linkTitle = "安裝"
 date = 2022-05-19T14:39:26+08:00
 # description = ""
@@ -10,36 +11,41 @@ comment = true
 toc = true
 reward = true
 pinned = true
-categories = []
-tags = []
+categories = ["Linux", "Arch Linux"]
+tags = ["BIOS", "Windows", "雙系統", "LVM", "分區", "GRUB", "AUR", "YAY", "KDE", "中文輸入法", "UEFI"]
 series = ["Arch Linux 安裝指南"]
 images = []
-nav_weight = 100
+nav_weight = 1
+[nav_icon]
+vendor = "bs"
+name = "cloud-download"
 +++
-
-本指南旨在詳細地描述搭建 Arch Linux 系統的細節，如磁盤分區、啓動引導（GRUB）、網絡設置、添加用戶、中文輸入法、AUR 助手（YAY）、桌面環境（KDE）等等。
-
-<!--more-->
-
-> 如果你打算安裝 Windows 和 Arch Linux 雙系統，請先安裝 Windows。
 
 ## 寫在前面
 
-本指南僅以 UEFI 模式引導進行安裝。
+本指南僅以 **UEFI** 模式引導進行安裝。
 
-## 啓動 LiveUSB 
+另外請嚴格遵守每個步驟的先後順序，並注意命令結果是否正常無誤，以避免出錯而從頭來過。
 
-在[製作 LiveUSB 安裝介質]({{< ref "/archlinux-guide/installation-medium" >}})之後，我們需要進入 BIOS，並將 LiveUSB 的啓動順序調至首位，以便電腦啓動 LiveUSB，部分電腦也可以生成一次性的可供選擇的啓動菜單。
+## 雙系統說明
 
-由於不同品牌型號的電腦，進入 BIOS 的鍵各不相同，這個請根據情況進行搜索。
+若打算安裝 Windows 和 Arch Linux 雙系統，請先安裝 Windows。
+
+對於雙系統，筆者建議安裝到不同的硬盤，後續即使要重裝 Windows，只需要提前拔掉或於 BIOS 中禁用 Arch Linux 所在硬盤。
+
+## 啟動 LiveUSB
+
+在[製作 LiveUSB 安裝介質]({{< ref "/archlinux-guide/installation-medium" >}})之後，我們需要進入 BIOS，並將 LiveUSB 的啟動順序調至首位，以便電腦啟動 LiveUSB，一些電腦也可以生成一次性的可供選擇的啟動菜單。
+
+由於不同品牌型號的電腦，進入 BIOS 的按鍵各不相同，請根據電腦品牌型號自行搜索。
 
 ## 驗證引導模式
 
-```
-# ls /sys/firmware/efi/efivars
-```
+啟動進入 LiveUSB 系統後，先確認驗證引導模式是否為 UEFI。
 
-如果顯示有目錄且無錯誤，則系統是以 UEFI 模式引導的。本指南也只針對 UEFI 模式安裝的。
+{{< page-resource-content "data/efivars" >}}
+
+如果顯示有目錄且無錯誤，則系統是以 UEFI 模式引導的，**本指南也只針對 UEFI 模式安裝的。**
 
 ## 網絡
 
@@ -53,61 +59,44 @@ nav_weight = 100
 
 當沒有有線網絡的情況下，我們也可以通過 `iwd` 連接 WIFI。
 
-```bash
-$ iwctl
-$ [iwd]# device list
-                                    Devices                                    
---------------------------------------------------------------------------------
-  Name                Address             Powered   Adapter   Mode      
---------------------------------------------------------------------------------
-  wlan0               6e:35:5e:19:51:c3   on        phy0      station
-```
+{{< page-resource-content "data/iwctl" >}}
 
 > `wlan0` 是本機的網絡設備名稱，後續將會用到，請根據情況對後續命令進行修改。
 
 然後掃描並列出可用的 WIFI 熱點：
 
-```bash
-[iwd]# station wlan0 scan
-[iwd]# station wlan0 get-networks
-                               Available networks                             
---------------------------------------------------------------------------------
-    Network name                    Security          Signal
---------------------------------------------------------------------------------
-  > RAZON WIFI                      psk               ****  
-  ...
-  ...
-```
+{{< page-resource-content "data/iwctl-list" >}}
 
-然後連接 WIFI 熱點，以 `RAZON WIFI` 爲例：
+然後連接 WIFI 熱點，以 `RAZON WIFI` 為例：
 
-```bash
-[iwd]# station wlan0 connect "RAZON WIFI"
-```
+{{< page-resource-content "data/iwctl-connect" >}}
 
 如果 `station list` 顯示 `connected` 說明連接成功。
 
 ### 網絡測試
 
-```bash
-$ ping archlinux.org
-```
+{{< page-resource-content "data/ping" >}}
+
+### 鏡像源
+
+為了更快地安裝軟件包，建議使用[國內的鏡像源](https://archlinux.org/mirrorlist/?country=CN&protocol=http&protocol=https&ip_version=4&use_mirror_status=on)。以網易鏡像源為例，
+只需編輯 `/etc/pacman.d/mirrorlist` 文件，並將 `Server = http://mirrors.163.com/archlinux/$repo/os/$arch` 放置**最上方**即可。
 
 ## 更新系統時間
 
-```bash
-$ timedatectl set-ntp true
-```
+{{< page-resource-content "data/time" >}}
 
 ## 分區和掛載
 
-請參閱[分區]({{<ref "/archlinux-guide/partition" >}})。
+請參閱[分區和掛載]({{<ref "/archlinux-guide/partition" >}})，請確保掛載無誤，因為後續步驟都是將軟件和配置寫入硬盤。
+
+{{% bs/alert danger %}}
+不管是查漏補缺還是系統維護，重新啟動 LiveUSB 後，都需要重新掛載分區。
+{{% /bs/alert %}}
 
 ## 安裝必要的軟件
 
-```bash
-$ pacstrap /mnt base linux linux-firmware lvm2
-```
+{{< page-resource-content "data/pacstrap" >}}
 
 由於本指南使用了 LVM 分區，需要額外安裝 `lvm2`。你也可以安裝其他額外的軟件：如 `vim`、`base-devel` 等等。
 
@@ -117,66 +106,55 @@ $ pacstrap /mnt base linux linux-firmware lvm2
 
 生成 fstab 文件：
 
-```bash
-$ genfstab -U /mnt >> /mnt/etc/fstab
-```
+{{< page-resource-content "data/fstab" >}}
 
 ### Chroot
 
 Change root 到新安裝的系統：
 
-```bash
-$ arch-chroot /mnt
-```
+{{< page-resource-content "data/chroot" >}}
 
 ### 時區
 
-```bash
-$ ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-```
+{{< page-resource-content "data/timezone" >}}
 
 ### Initramfs
 
 由於使用了 LVM 分區，我們需要對 `/etc/mkinitcpio.conf` 進行配置，於 `block` 和 `filesystems` 之間插入 `lvm2`：
 
-```
-HOOKS=(base udev ... block lvm2 filesystems)
-```
+{{< page-resource-content "data/mkinitcpio-conf" >}}
 
 創建 Initramfs：
 
-```bash
-$ mkinitcpio -P
-```
+{{< page-resource-content "data/mkinitcpio" >}}
 
 ### Root 密碼
 
-```bash
-$ passwd
-```
+{{< page-resource-content "data/passwd" >}}
 
 ### 字體
 
-```bash
-$ sudo pacman -S wqy-microhei wqy-zenhei
-```
+安裝字體，以避免中文亂碼，更多字體請參閱[中文本地化](https://wiki.archlinux.org/title/Localization/Chinese#Fonts)。
 
-更多字體請參閱[中文本地化](https://wiki.archlinux.org/title/Localization/Chinese#Fonts)。
+{{< page-resource-content "data/fonts" >}}
 
 ## 安裝引導程序
 
-請參閱 [GRUB]({{< ref "/archlinux-guide/grub" >}})。
+要啟動系統，我們還需要安裝引導程序，這裡我們使用 GRUB 引導程序，詳情請參閱 [GRUB]({{< ref "/archlinux-guide/grub" >}})。
 
-## 網絡
+## 網絡管理器
 
-```bash
-$ sudo pacman -S networkmanager
-$ sudo systemctl enable NetworkManager
-```
+網絡也是及其重要的一環，這裡我們安裝 Network Manager，並將其設置為開機自啟。
+
+一般地新系統啟動後，會自動連接有線網絡，若想連接無線網絡，請參閱[通過 nmcli 連接 WIFI]({{< relref "blog/linux/nmcli-wifi" >}})。
+
+{{< page-resource-content "data/networkmanager" >}}
 
 ## 總結
 
-自此，一個基本的 Arch Linux 系統就安裝完畢了，重啓並拔出 U 盤即可進入新系統。
+自此，一個基本的 Arch Linux 系統就安裝完畢了，重啟並拔出 U 盤即可進入新系統。
+
+雙系統則需要進入 BIOS 調整引導順序，將 GRUB 調至第一位即可。
 
 ## 後續工作
 

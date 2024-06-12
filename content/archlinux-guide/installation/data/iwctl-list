@@ -1,0 +1,11 @@
+```sh
+[iwd]# station wlan0 scan
+[iwd]# station wlan0 get-networks
+                               Available networks                             
+--------------------------------------------------------------------------------
+    Network name                    Security          Signal
+--------------------------------------------------------------------------------
+  > RAZON WIFI                      psk               ****  
+  ...
+  ...
+```

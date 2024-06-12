@@ -1,0 +1,5 @@
+```sh
+fdisk -l
+Disk /dev/nvme1n1: 465.76 GiB, 500107862016 bytes, 976773168 sectors
+Disk model: KIOXIA-EXCERIA SSD  
+```

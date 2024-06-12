@@ -1,0 +1,11 @@
+```sh
+mount /dev/arch/root /mnt
+
+mkdir /mnt/home
+mount /dev/arch/home /mnt/home
+
+mkdir /mnt/boot
+mount /dev/nvme1n1p1 /mnt/boot
+
+swapon /dev/arch/swap
+```

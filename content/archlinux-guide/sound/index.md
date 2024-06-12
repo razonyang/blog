@@ -14,6 +14,10 @@ categories = []
 tags = ["ALSA"]
 series = []
 images = []
+nav_weight = 25
+[nav_icon]
+vendor = "bs"
+name = "volume-up"
 +++
 
 系统安装后，有可能无法识别一些声音设备，比如耳机。

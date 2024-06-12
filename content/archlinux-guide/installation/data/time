@@ -1,0 +1,3 @@
+```sh
+timedatectl set-ntp true
+```

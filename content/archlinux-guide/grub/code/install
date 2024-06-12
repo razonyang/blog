@@ -1,0 +1,3 @@
+```sh
+sudo pacman -S grub efibootmgr
+```

@@ -1,0 +1,5 @@
+```sh
+lvcreate -L 128GiB arch -n home
+lvcreate -L 16GiB arch -n swap
+lvcreate -l +100%FREE arch -n root
+```

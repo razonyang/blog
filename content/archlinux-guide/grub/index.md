@@ -2,6 +2,7 @@
 type = "docs"
 title = "Arch Linux 安装 GRUB"
 linkTitle = "GRUB"
+description = "要启动系统，引导程序必不可少，而本文简单介绍安装 GRUB 引导程序。"
 date = 2022-05-19T14:39:26+08:00
 # description = ""
 featured = false
@@ -11,29 +12,24 @@ toc = true
 reward = true
 pinned = false
 categories = ["Linux"]
-tags = ["GRUB"]
+tags = ["GRUB", "os-prober", "efibootmgr", "双系统", "引导程序"]
 series = ["Arch Linux 安装指南"]
 images = []
-nav_weight = 70
+nav_weight = 4
+[nav_icon]
+vendor = "bs"
+name = "power"
 +++
-
-本文简单介绍安装 GRUB 引导程序。
-
-<!--more-->
 
 > 本指南只针对 UEFI 模式进行说明。
 
 ## 安装
 
-```bash
-$ sudo pacman -S grub efibootmgr
-```
+{{< page-resource-content "code/install" >}}
 
 > 如果是双系统，还需要安装 `os-prober`。
 
-```bash
-$ sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
-```
+{{< page-resource-content "code/grub-install" >}}
 
 ## 配置
 
@@ -45,6 +41,12 @@ $ sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GR
 
 ### 生成配置
 
-```bash
-$ sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
+{{< page-resource-content "code/grub-mkconfig" >}}
+
+### 双系统
+
+若没识别 Windows 启动项，不急，先完成基本系统的安装，后续启动到新系统时，挂载 Windows 的启动分区（可通过 `fdisk -l | grep EFI` 查看），再次生成配置即可。
+
+{{< page-resource-content "code/mount-ms-boot" >}}
+
+将 `/dev/xxx` 改为对应的盘符即可。

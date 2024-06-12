@@ -1,0 +1,3 @@
+```sh
+useradd -G wheel -m foobar
+```

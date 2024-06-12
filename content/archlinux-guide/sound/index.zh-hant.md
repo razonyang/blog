@@ -14,6 +14,10 @@ categories = []
 tags = ["ALSA"]
 series = []
 images = []
+nav_weight = 25
+[nav_icon]
+vendor = "bs"
+name = "volume-up"
 +++
 
 系統安裝後，有可能無法識別一些聲音設備，比如耳機。

@@ -14,7 +14,10 @@ categories = ["Linux"]
 tags = ["Fcitx", "fcitx-googlepinyin", " fcitx-im", "fcitx-configtool"]
 series = ["Arch Linux 安裝指南"]
 images = []
-nav_weight = 30
+nav_weight = 22
+[nav_icon]
+  vendor = "bs"
+  name = "keyboard"
 +++
 
 Arch Linux 安裝中文輸入法 Fcitx：谷歌拼音和搜狗拼音。

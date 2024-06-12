@@ -1,0 +1,3 @@
+```sh
+pacstrap /mnt base linux linux-firmware lvm2
+```

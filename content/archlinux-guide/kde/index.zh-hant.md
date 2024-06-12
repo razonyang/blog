@@ -14,7 +14,10 @@ categories = ["Linux"]
 tags = ["KDE", "xinit", "SDDM"]
 series = ["Arch Linux 安裝指南"]
 images = []
-nav_weight = 40
+nav_weight = 21
+[nav_icon]
+vendor = "simple"
+name = "kde"
 +++
 
 在上篇文章，我們安裝了 [Xorg]({{< ref "/archlinux-guide/xorg" >}})，本文將介紹如何安裝 KDE 桌面環境。

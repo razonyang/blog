@@ -1,7 +1,8 @@
 +++
 type = "docs"
-title = "Arch Linux 安裝指南 - 創建用戶"
+title = "創建用戶"
 linkTitle = "創建用戶"
+description = "基於安全性等方面的考慮，通常我們不會以 root 用戶來使用系統，本文將介紹如何創建一個非特權的用戶。"
 date = 2022-05-19T14:39:26+08:00
 # description = ""
 featured = false
@@ -11,40 +12,36 @@ toc = true
 reward = true
 pinned = false
 categories = ["Linux"]
-tags = ["useradd"]
+tags = ["useradd", "wheel", "sudo"]
 series = ["Arch Linux 安裝指南"]
 images = []
-nav_weight = 60
+nav_weight = 10
+[nav_icon]
+vendor = "bs"
+name = "person"
 +++
-
-通常我們不會以 root 用戶來使用系統，本文將介紹如何創建一個非特權的用戶。
-
-<!--more-->
 
 ## 創建用戶
 
-```bash
-$ sudo useradd -G wheel -m foobar
-```
+{{< page-resource-content "code/useradd" >}}
 
-- `foobar` 爲用戶名，請自行修改。
+- `foobar` 為用戶名，請自行修改。
 - `-G` 指定用戶組，`wheel` 是一個特殊的用戶組，用於獲取管理員權限（sudo），後續步驟會進行說明。
 
 ## 設置密碼
 
-```bash
-$ sudo passwd foobar
-```
+{{< page-resource-content "code/passwd" >}}
 
 ## Sudoer
 
-```bash
-$ sudo visudo
-```
+為了讓用戶可以獲取管理員權限，我們需要修改 sudo 的配置。
 
-```text
-## Uncomment to allow members of group wheel to execute any command
-#%wheel ALL=(ALL:ALL) ALL
-```
+{{< page-resource-content "code/visudo" >}}
+
+若出現類似 `visudo: no editor found (editor path = /usr/bin/vi)` 等找不到編輯器的錯誤，可以通過 `EDITOR` 指定編輯器，或者安裝對應的編輯器。
+
+{{< page-resource-content "code/visudo-editor" >}}
+
+{{< page-resource-content "code/visudo-conf" >}}
 
 去掉 `%wheel ALL=(ALL:ALL) ALL` 前面的 `#` 以取消註釋，讓 `wheel` 用戶組獲得管理員權限。
