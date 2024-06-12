@@ -75,9 +75,9 @@ $ sudo systemctl enable sddm
 - `terminator` - 筆者比較喜歡的一款終端。
 - `konsole` - KDE 官方終端。
 - `spectacle` - 屏幕截圖工具。
+- `dolphin` - KDE 文件管理。
+- `kscree` - KDE 多顯示器管理器。
 
 ## 總結
 
 自此，我們算是完成了基本 KDE 桌面環境的安裝，接下來就是安裝[中文輸入法]({{< ref "/archlinux-guide/fcitx" >}})了。
-
-
