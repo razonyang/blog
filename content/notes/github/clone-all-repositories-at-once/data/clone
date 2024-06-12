@@ -1,0 +1,6 @@
+```sh
+curl $URL |
+  jq '.[] | .ssh_url' |
+  xargs printf 'git clone %s & ' |
+  sh
+```
