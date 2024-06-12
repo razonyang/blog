@@ -29,3 +29,9 @@ outputs:
     - RSS
     - SearchIndex
     - WebAppManifest
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^GITHUB_TOKEN$'

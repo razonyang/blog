@@ -14,6 +14,7 @@ hb:
       category: General
       category_id: DIC_kwDOCvGTqc4CTKfR
     post_read_more: false
+    post_thumbnail_default: images/thumbnail.jpg
     home:
       pinned_posts_position: list
       taxonomies: false
@@ -72,6 +73,13 @@ hb:
         id: https://techhub.social/@razonyang
       - name: rss
         id: true
+  revision:
+    repo_service: github
+    repo_owner: razonyang
+    repo_name: blog
+    repo_branch: main
+    repo_subpath: ''
+    repo_contributors: true
 hugopress:
   modules:
     hb-custom:

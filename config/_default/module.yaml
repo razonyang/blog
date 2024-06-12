@@ -1,13 +1,26 @@
 proxy: 'https://goproxy.io'
 imports:
   - path: github.com/hbstack/theme-cards
+  # Blog modules
+  - path: github.com/hbstack/blog/modules/content-panel
   - path: github.com/hbstack/blog/modules/giscus
+  - path: github.com/hbstack/blog/modules/revision
   - path: github.com/hbstack/blog/modules/sidebar/profile
   - path: github.com/hbstack/blog/modules/sidebar/profile
   - path: github.com/hbstack/blog/modules/sidebar/posts
   - path: github.com/hbstack/blog/modules/sidebar/taxonomies
   - path: github.com/hbstack/blog/modules/sticky-till-the-end
+  - path: github.com/hbstack/blog/modules/toc-scrollspy
+  # Docs modules
+  - path: github.com/hbstack/docs/modules/content-panel
   - path: github.com/hbstack/docs/modules/giscus
+  - path: github.com/hbstack/docs/modules/revision
+  - path: github.com/hbstack/docs/modules/sticky-till-the-end
+  - path: github.com/hbstack/docs/modules/toc-scrollspy
+  # Icons vendors
   - path: github.com/hugomods/icons/vendors/font-awesome
   - path: github.com/hugomods/icons/vendors/simple-icons
+  # Others modules
+  - path: github.com/hugomods/google-adsense
+  # Recommended modules
   - path: github.com/hbstack/meta/recommended
