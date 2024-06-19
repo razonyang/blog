@@ -77,6 +77,7 @@ $ sudo systemctl enable sddm
 - `spectacle` - 屏幕截图工具。
 - `dolphin` - KDE 文件管理。
 - `kscree` - KDE 多显示器管理器。
+- `sddm-kcm` - SDDM KDE 配置模块。
 
 ## 总结
 
