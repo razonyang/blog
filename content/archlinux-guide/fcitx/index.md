@@ -24,6 +24,10 @@ Arch Linux 安装中文输入法 Fcitx：谷歌拼音和搜狗拼音。
 
 <!--more-->
 
+{{% bs/alert warning %}}
+Fcitx 已经停止更新了，建议使用 [Fcitx5](https://wiki.archlinuxcn.org/wiki/Fcitx5)。
+{{% /bs/alert %}}
+
 ## 安装
 
 ```shell
