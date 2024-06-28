@@ -1,0 +1,12 @@
+```sh
+$ echo '{"foo":"bar"}' | jq '.foo'
+"bar"
+
+$ echo '{"foo":"bar"}' | jq '.fizz'
+null
+
+$ echo '{"foo":"bar"}' | jq '.fizz // empty'
+
+$ echo '{"foo":"bar"}' | jq '.foo // empty'
+"bar"
+```
