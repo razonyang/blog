@@ -12,7 +12,7 @@ tags:
   - WIFI
 series:
   - CLI
-images: []
+images: ["/images/covers/network.jpg"]
 ---
 
 ## 扫描并列出 WIFI 热点

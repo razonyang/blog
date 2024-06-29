@@ -12,7 +12,7 @@ tags:
   - WIFI
 series:
   - CLI
-images: []
+images: ["/images/covers/network.jpg"]
 ---
 
 ## 掃描並列出 WIFI 熱點
