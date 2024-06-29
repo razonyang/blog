@@ -104,8 +104,8 @@ github.com/hbstack/noscript v0.7.0 h1:PxHaeCInP9SFofMOS+QUmAxujwP+Nh2D1kO5C0IlZI
 github.com/hbstack/noscript v0.7.0/go.mod h1:F0qU9/caEaqa45OfHiL+8nTCohs2rg97Hek2KQUzK8M=
 github.com/hbstack/pagination v0.8.0 h1:xnrLD6c7HalpQFQKN9pcQi1M8H0o8b3yrjbjBFs/03o=
 github.com/hbstack/pagination v0.8.0/go.mod h1:XaYSS/iReEFQo+fbVAx2YfjP4muWEraVNGeaTcVA35o=
-github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab41B4jg=
-github.com/hbstack/progress-bar v0.1.0/go.mod h1:JZt160XK62FxThzt+RmokjOww3De8ZL0ITcxMJLVE7g=
+github.com/hbstack/progress-bar v0.1.1 h1:lDnWvTMzPfzJedmUBkPmD+PHzioSMDR7rDBIIuK8D0M=
+github.com/hbstack/progress-bar v0.1.1/go.mod h1:FIGc4o/OJjz79uyjOenyjKfinWu2r7oUzI+XRSRMaOM=
 github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
 github.com/hbstack/pwa v0.1.2/go.mod h1:8x01rczLrSw1aCWD+yrn6v5FRQPtaEh/PYCtFDICEWo=
 github.com/hbstack/revision v0.6.6 h1:TbmZ0Z8wNJ1bng/uzOxY7/LBhl01gUADPfy/1VBw+/k=
