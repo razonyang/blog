@@ -7,7 +7,7 @@ draft: false
 categories: ["開發"]
 tags: ["Git", ".gitignore"]
 series: ["筆記"]
-images: []
+images: ["/images/covers/git.jpg"]
 ---
 
 ## 實際案例

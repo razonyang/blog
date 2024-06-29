@@ -14,7 +14,7 @@ tags:
   - printf
 series:
   - 笔记
-images: []
+images: ["/images/covers/github.jpg"]
 ---
 
 ## API
