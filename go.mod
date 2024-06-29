@@ -27,7 +27,7 @@ require (
 	github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 // indirect
 	github.com/hbstack/bootstrap v0.2.2 // indirect
 	github.com/hbstack/breadcrumb v0.7.3 // indirect
-	github.com/hbstack/carousel v0.2.6 // indirect
+	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/content-panel v0.10.1 // indirect
 	github.com/hbstack/docs v0.17.3 // indirect
@@ -49,7 +49,7 @@ require (
 	github.com/hbstack/header v0.14.6 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/search v0.1.37 // indirect
-	github.com/hbstack/header/modules/socials v0.2.1 // indirect
+	github.com/hbstack/header/modules/socials v0.2.2 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.5.2 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
 	github.com/hbstack/mermaid v0.2.2 // indirect
