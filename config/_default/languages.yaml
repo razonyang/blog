@@ -9,7 +9,7 @@ zh-hans:
           profile:
             location: 中国
             description: >
-              全栈工程师 • 开源软件信徒 • [HugoMods](https://hugomods.com/) 和 [HB Framework](https://hbstack.dev/) 的创建者和维护者。
+              全栈工程师 • 热爱开源 • [HugoMods](https://hugomods.com/) 和 [HB Framework](https://hbstack.dev/) 的创建者和维护者。
 zh-hant:
   LanguageName: 繁體中文
   weight: 2
@@ -21,7 +21,7 @@ zh-hant:
           profile:
             location: 中國
             description: >
-              全棧工程師 • 開源軟件信徒 • [HugoMods](https://hugomods.com/) 和 [HB Framework](https://hbstack.dev/) 的創建者和維護者。
+              全棧工程師 • 熱愛開源 • [HugoMods](https://hugomods.com/) 和 [HB Framework](https://hbstack.dev/) 的創建者和維護者。
 en:
   LanguageName: English
   weight: 3
