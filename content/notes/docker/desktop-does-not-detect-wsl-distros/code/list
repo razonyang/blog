@@ -1,0 +1,8 @@
+```sh
+wsl --list --verbose
+  NAME                   STATE           VERSION
+* AlmaLinuxOS-9          Stopped         2
+  Ubuntu                 Running         1
+  docker-desktop-data    Stopped         2
+  docker-desktop         Stopped         2
+```
