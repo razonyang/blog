@@ -10,6 +10,7 @@ hb:
   terms:
     list_style: cascade
   blog:
+    paginate: 30
     list_style: cascade
     giscus:
       repo: razonyang/blog
