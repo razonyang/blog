@@ -4,7 +4,7 @@ services:
   server:
     env_file: .env
     image: hugomods/hugo:exts
-    command: hugo server --bind 0.0.0.0 -p 12345
+    command: server -p 12345
     volumes:
       - $PWD:/src
       - $HOME/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
