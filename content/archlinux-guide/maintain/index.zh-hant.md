@@ -32,6 +32,6 @@ Arch Linux 安裝後，難免會遇到一些問題，從而導致無法正常開
 
 1. 開機啟動 LiveUSB
 2. [掛載系統的分區]({{< relref "archlinux-guide/partition/#掛載分區" >}})，請按照自己系統的分區情況進行掛載，並確保掛載無誤。
-3. [連接網絡](archlinux-guide/installation/#網絡)，可選。
+3. [連接網絡]({{< relref "archlinux-guide/installation/#網絡" >}})，可選。
 4. `arch-chroot /mnt` 進入新系統後，進行問題排查和修復。
 5. 問題修復後，重啟機器並進入原系統驗證。
