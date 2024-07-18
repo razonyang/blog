@@ -7,7 +7,7 @@ draft: false
 categories: ["Linux"]
 tags: ["WSL", "WSL2"]
 series: ["開發"]
-images: []
+images: ["/images/covers/tux.jpg"]
 ---
 
 前段時間導入了 WSL 備份，可能期間出了些許問題，導致 WSL 的默認登錄用戶為 `root`，本文將記錄如何通過修改 `/etc/wsl.conf` 配置來設置默認用戶。
