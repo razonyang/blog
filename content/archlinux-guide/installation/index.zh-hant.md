@@ -57,21 +57,7 @@ name = "cloud-download"
 
 ### 無線網絡
 
-當沒有有線網絡的情況下，我們也可以通過 `iwd` 連接 WIFI。
-
-{{< page-resource-content "data/iwctl" >}}
-
-> `wlan0` 是本機的網絡設備名稱，後續將會用到，請根據情況對後續命令進行修改。
-
-然後掃描並列出可用的 WIFI 熱點：
-
-{{< page-resource-content "data/iwctl-list" >}}
-
-然後連接 WIFI 熱點，以 `RAZON WIFI` 為例：
-
-{{< page-resource-content "data/iwctl-connect" >}}
-
-如果 `station list` 顯示 `connected` 說明連接成功。
+當沒有有線網絡的情況下，我們也可以[通過 `iwd` 連接 Wi-Fi]({{< relref "notes/cli/iwd" >}})。
 
 ### 網絡測試
 
