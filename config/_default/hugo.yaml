@@ -8,6 +8,12 @@ enableEmoji: true
 capitalizeListTitles: false
 blackfriday:
   hrefTargetBlank: true
+cascade:
+  - _target:
+      path: /archlinux-guide/**
+    params:
+      images:
+        - /images/covers/archlinux.png
 taxonomies:
   category: categories
   series: series

@@ -14,7 +14,6 @@ pinned = true
 categories = ["Linux", "Arch Linux"]
 tags = ["BIOS", "Windows", "雙系統", "LVM", "分區", "GRUB", "AUR", "YAY", "KDE", "中文輸入法", "UEFI"]
 series = ["Arch Linux 安裝指南"]
-images = []
 nav_weight = 1
 [nav_icon]
 vendor = "bs"
