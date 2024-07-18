@@ -6,6 +6,8 @@ categories: ["Hugo"]
 tags: ["zh-hans", "zh-cn", "zh-hant", "zh-tw", "zh-hk"]
 series: []
 images: []
+aliases:
+  - /zh-hans/notes/hugo/why-do-i-recommend-using-zh-hans-instead-of-zh-cn/
 ---
 
 ## 背景
