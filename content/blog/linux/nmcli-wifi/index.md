@@ -13,6 +13,7 @@ tags:
 series:
   - CLI
 images: ["/images/covers/network.jpg"]
+featured: true
 ---
 
 ## 扫描并列出 WIFI 热点

@@ -13,6 +13,7 @@ tags:
 series:
   - CLI
 images: ["/images/covers/network.jpg"]
+featured: true
 ---
 
 ## 掃描並列出 WIFI 熱點

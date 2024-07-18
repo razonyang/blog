@@ -7,6 +7,7 @@ categories: ["命令行"]
 tags: ["iwd", "WiFi", "Wi-Fi", "Linux"]
 series: []
 images: ["/images/covers/wifi.jpg"]
+featured: true
 ---
 
 ## 查看設備列表
