@@ -6,12 +6,14 @@ seo:
   favicons:
     icon: images/logo.jpg
 hb:
+  full_width: true
   logo: images/logo.jpg
   terms:
     list_style: cascade
   blog:
     paginate: 30
     list_style: cascade
+    list_cols_md: 4
     giscus:
       repo: razonyang/blog
       repo_id: MDEwOlJlcG9zaXRvcnkxODM2MDQxMzc=
