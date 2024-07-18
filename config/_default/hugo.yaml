@@ -5,6 +5,7 @@ defaultContentLanguage: zh-hans
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
 enableEmoji: true
+capitalizeListTitles: false
 blackfriday:
   hrefTargetBlank: true
 taxonomies:
