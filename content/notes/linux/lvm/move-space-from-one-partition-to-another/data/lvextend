@@ -1,0 +1,3 @@
+```sh
+lvextend --resizefs -l +100%FREE /dev/arch/home
+```

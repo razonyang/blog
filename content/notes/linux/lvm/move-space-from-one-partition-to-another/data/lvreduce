@@ -1,0 +1,3 @@
+```sh
+lvreduce --resizefs -L 128GiB /dev/arch/root
+```
