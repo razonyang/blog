@@ -78,6 +78,7 @@ $ sudo systemctl enable sddm
 - `dolphin` - KDE 文件管理。
 - `kscree` - KDE 多显示器管理器。
 - `sddm-kcm` - SDDM KDE 配置模块。
+- `okular` - KDE 文档查看器，支持 PDF、EPUB、CHM 等格式。
 
 ## 总结
 
