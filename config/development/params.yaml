@@ -8,3 +8,7 @@ pwa:
       strategy: network-first
     style:
       strategy: network-first
+
+hb:
+  revision:
+    repo_contributors: false
