@@ -1,6 +1,6 @@
 ---
 title: GitHub terminal prompts disabled 解决办法
-date: -001-11-30T00:00:00+00:00
+date: 2019-11-30T00:00:00+00:00
 excerpt: "fatal: could not read Username for 'https://github.com': terminal prompts disabled 解决办法"
 draft: true
 categories:

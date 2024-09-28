@@ -1,6 +1,6 @@
 ---
 title: Vue 子組件傳值給父組件
-date: -001-11-30T00:00:00+00:00
+date: 2019-11-30T00:00:00+00:00
 draft: true
 categories:
   - Programing
