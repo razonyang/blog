@@ -7,3 +7,5 @@ microsoft_clarity:
 services:
   umami:
     id: 9811b12a-efdd-441a-a4e3-65945ed29588
+  cloudflare_analytics:
+    token: 2b8f0882b464479fbd5639c77c5d61a3
