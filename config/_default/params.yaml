@@ -92,3 +92,19 @@ hugopress:
       hooks:
         head-end:
           cacheable: true
+        hb-docs-doc-toc-end:
+          cacheable: true
+        hb-docs-nav-beforeend:
+          cacheable: true
+        hb-docs-doc-content-begin:
+          cacheable: true
+        hb-docs-doc-content-end:
+          cacheable: true
+        hb-blog-post-toc-end:
+          cacheable: true
+        hb-blog-post-content-begin:
+          cacheable: true
+        hb-blog-post-content-end:
+          cacheable: true
+        hb-blog-sidebar:
+          cacheable: true
