@@ -1,1 +1,3 @@
-googleAnalytics: "G-CL2BTGQE56"
+services:
+  googleAnalytics:
+    ID: "G-CL2BTGQE56"

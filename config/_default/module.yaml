@@ -22,5 +22,8 @@ imports:
   - path: github.com/hugomods/icons/vendors/simple-icons
   # Others modules
   - path: github.com/hugomods/google-adsense
+  - path: github.com/hugomods/minimal-google-analytics
+  - path: github.com/hugomods/microsoft-clarity
+  - path: github.com/hugomods/umami
   # Recommended modules
   - path: github.com/hbstack/meta/recommended

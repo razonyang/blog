@@ -1,4 +1,9 @@
-analytics:
-  baidu: 1748e454242a1146387e079e3bb3a92a
 google_adsense: ca-pub-7827859788508375
 google_adsense_ad_blocking_detector: true
+
+microsoft_clarity:
+  id: ogecb0w144
+
+services:
+  umami:
+    id: 9811b12a-efdd-441a-a4e3-65945ed29588

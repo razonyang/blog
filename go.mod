@@ -89,6 +89,8 @@ require (
 	github.com/hugomods/katex v0.3.3 // indirect
 	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
+	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
+	github.com/hugomods/minimal-google-analytics v0.1.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.17.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
@@ -101,6 +103,7 @@ require (
 	github.com/hugomods/shortcodes v0.22.1 // indirect
 	github.com/hugomods/simple-icons v13.13.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
+	github.com/hugomods/umami v0.1.0 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
