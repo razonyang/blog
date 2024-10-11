@@ -70,6 +70,7 @@ require (
 	github.com/hbstack/toc-scrollspy v0.2.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.17 // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
+	github.com/hugomods/baidu-analytics v0.1.1 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/bootstrap v0.22.3 // indirect
 	github.com/hugomods/cloudflare-analytics v0.1.0 // indirect
