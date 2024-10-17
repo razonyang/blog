@@ -1,7 +1,11 @@
 name: Hugo Modules
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
-  push:
+  workflow_dispatch:
   schedule:
     - cron: '0 * * * *'
 
@@ -37,4 +41,9 @@ jobs:
         with:
           name: deps-hugo-modules
 
-      - run: git status
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore(deps): update modules"
+          branch: deps-hugo-modules
+          title: Update Hugo Modules
