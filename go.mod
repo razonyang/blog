@@ -30,7 +30,7 @@ require (
 	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/content-panel v0.10.2 // indirect
-	github.com/hbstack/docs v0.19.0 // indirect
+	github.com/hbstack/docs v0.20.1 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.7 // indirect
@@ -40,13 +40,13 @@ require (
 	github.com/hbstack/docs/modules/revision v0.1.0 // indirect
 	github.com/hbstack/docs/modules/sticky-till-the-end v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.8 // indirect
-	github.com/hbstack/featured-image v0.2.1 // indirect
+	github.com/hbstack/featured-image v0.2.2 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
 	github.com/hbstack/footer/modules/observer v0.1.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.3.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/hb v0.15.3 // indirect
-	github.com/hbstack/header v0.16.1 // indirect
+	github.com/hbstack/header v0.16.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/search v0.1.37 // indirect
 	github.com/hbstack/header/modules/socials v0.2.2 // indirect
@@ -73,7 +73,7 @@ require (
 	github.com/hugomods/baidu-analytics v0.1.1 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/bootstrap v0.22.3 // indirect
-	github.com/hugomods/cloudflare-analytics v0.1.0 // indirect
+	github.com/hugomods/cloudflare-analytics v0.1.1 // indirect
 	github.com/hugomods/code-block-panel v0.7.1 // indirect
 	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
@@ -91,8 +91,8 @@ require (
 	github.com/hugomods/katex v0.3.3 // indirect
 	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
-	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
-	github.com/hugomods/minimal-google-analytics v0.1.0 // indirect
+	github.com/hugomods/microsoft-clarity v0.3.0 // indirect
+	github.com/hugomods/minimal-google-analytics v0.2.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.17.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
@@ -102,10 +102,9 @@ require (
 	github.com/hugomods/seo/modules/schema v0.1.3 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
-	github.com/hugomods/shortcodes v0.22.1 // indirect
-	github.com/hugomods/simple-icons v13.13.0+incompatible // indirect
+	github.com/hugomods/shortcodes v0.23.0 // indirect
+	github.com/hugomods/simple-icons v13.14.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
-	github.com/hugomods/umami v0.1.0 // indirect
 	github.com/hugomods/umami-analytics v0.3.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
