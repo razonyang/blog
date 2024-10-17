@@ -1,0 +1,40 @@
+name: Hugo Modules
+
+on:
+  push:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+
+  update:
+    runs-on: ubuntu-latest
+    container:
+      image: hugomods/hugo:go
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update modules
+        run: hugo mod get -u
+
+      - name: Tidy modules
+        run: hugo mod tidy
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deps-hugo-modules
+          path: |
+            go.sum
+            go.mod
+
+  commit:
+    needs: update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: deps-hugo-modules
+
+      - run: git status
