@@ -106,6 +106,7 @@ require (
 	github.com/hugomods/simple-icons v13.13.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/umami v0.1.0 // indirect
+	github.com/hugomods/umami-analytics v0.3.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
