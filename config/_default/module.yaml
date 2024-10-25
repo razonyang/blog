@@ -1,6 +1,7 @@
 proxy: 'https://goproxy.io'
 imports:
   - path: github.com/hbstack/theme-cards
+  - path: github.com/hbstack/blockquote-alerts
   # Blog modules
   - path: github.com/hbstack/blog/modules/content-panel
   - path: github.com/hbstack/blog/modules/giscus
