@@ -3,11 +3,11 @@ name: razonyang-blog
 services:
   server:
     env_file: .env
-    image: hugomods/hugo:exts
+    image: hugomods/hugo:exts-non-root
     command: server -p 12345
     volumes:
-      - $PWD:/src
-      - $HOME/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
-      - $HOME/Workspaces:/workspaces
+      - ./:/src
+      - ~/.cache/hugo_cache:/tmp/hugo_cache
+      - ~/Workspaces:/workspaces
     ports:
       - 12345:12345
