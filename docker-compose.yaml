@@ -4,7 +4,7 @@ services:
   server:
     env_file: .env
     image: hugomods/hugo:exts-non-root
-    command: server -p 12345
+    command: server -p 12345 -D
     volumes:
       - ./:/src
       - ~/.cache/hugo_cache:/tmp/hugo_cache
