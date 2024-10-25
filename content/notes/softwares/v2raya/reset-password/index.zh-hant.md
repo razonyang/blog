@@ -1,6 +1,6 @@
 ---
-title: '重置 V2raya 密码'
-description: '学习如何重置 V2raya 密码。'
+title: '重置 V2raya 密碼'
+description: '學習如何重置 V2raya 密碼。'
 date: '2024-10-25T04:56:16Z'
 draft: false
 categories: []
@@ -12,17 +12,17 @@ series: []
 images: []
 ---
 
-## 停止 V2raya 服务
+## 停止 V2raya 服務
 
 {{< page-resource-content "data/stop-service" >}}
 
-## 重置 V2raya 密码
+## 重置 V2raya 密碼
 
 {{< page-resource-content "data/reset-password" >}}
 
-## 启动 V2raya 服务
+## 啟動 V2raya 服務
 
 > [!NOTE]
-> 重启 V2raya 服务后，即可在 Web 界面重设密码。
+> 重啟 V2raya 服務後，即可在 Web 界面重設密碼。
 
 {{< page-resource-content "data/start-service" >}}
