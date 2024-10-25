@@ -1,0 +1,3 @@
+```sh
+sudo systemctl start v2raya
+```

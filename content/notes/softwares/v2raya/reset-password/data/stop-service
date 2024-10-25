@@ -1,0 +1,3 @@
+```sh
+sudo systemctl stop v2raya
+```
