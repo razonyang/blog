@@ -90,6 +90,8 @@ hugopress:
   modules:
     hb-custom:
       hooks:
+        head-begin:
+          cacheable: true
         head-end:
           cacheable: true
         hb-docs-doc-toc-end:

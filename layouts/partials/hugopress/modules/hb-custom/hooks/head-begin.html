@@ -1,0 +1,19 @@
+<script>
+  window.googlefc = window.googlefc || {};
+  googlefc.controlledMessagingFunction = async (message) => {
+    console.log(message)
+    // Determine if the user is a subscriber asynchronously.
+    let isSubscriber = false
+    for (cookie of document.cookie.split(';')) {
+      if (cookie.trim().startsWith('auth')) {
+        isSubscriber = true
+      }
+    }
+    console.log('isSubscriber', isSubscriber)
+    if (isSubscriber) {
+      message.proceed(false);
+    } else {
+      message.proceed(true);
+    }
+  }
+</script>
