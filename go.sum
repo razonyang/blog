@@ -138,8 +138,8 @@ github.com/hugomods/baidu-analytics v0.1.1 h1:rbugffLOZ54CY5+EsNB/36zTUao8JZRxt9
 github.com/hugomods/baidu-analytics v0.1.1/go.mod h1:EweSGsAVRyiWzkJD0zc0mTbEgHc38/ZdBN/ZV2l2VgY=
 github.com/hugomods/base v0.7.2 h1:SShNl7koN79CEUdGQ65Knbf/c2k+bE+El5ManYWd8Cg=
 github.com/hugomods/base v0.7.2/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
-github.com/hugomods/bootstrap v0.22.3 h1:q/lqm4rx0TefUALFFD54j19y7uu3toqYCOAWStebkYw=
-github.com/hugomods/bootstrap v0.22.3/go.mod h1:OpcaTH8dMsWqCeSSJ8IGqjEvK2zghLm8wD8ka3d33jc=
+github.com/hugomods/bootstrap v0.23.0 h1:/Mj6VCk+xUNan72m4ulupu+oRug7IuvpBO1jp+MhhFw=
+github.com/hugomods/bootstrap v0.23.0/go.mod h1:eL5Y6abDndTt/LZu1VtgprvkdZgsV7/d3jpSoCcDkKQ=
 github.com/hugomods/cloudflare-analytics v0.1.1 h1:3J1uB6T2ZZwRJvrZYoPCf79lHJ8PfFAcY5/LkdQi/1c=
 github.com/hugomods/cloudflare-analytics v0.1.1/go.mod h1:fP99v6rFMaquoUL1+PpjsGuyDrqm+jhe5e3f0ScBtoM=
 github.com/hugomods/code-block-panel v0.7.1 h1:WP3xzQC++Bh5SiSke0csO0H1O4G6VejwdPazHD9DY5o=
@@ -182,8 +182,8 @@ github.com/hugomods/minimal-google-analytics v0.2.0 h1:dtlc+wLB8zyQl2FKRwpYwto8S
 github.com/hugomods/minimal-google-analytics v0.2.0/go.mod h1:XnXnh3VZzjbnF9WwN2iedl9fS+YU4QJnWgYWAwyWaZA=
 github.com/hugomods/pwa v0.9.0 h1:bEKFkP7xkow6IadY9hKEwPbdKeLC0XZfVT31gGP7CPc=
 github.com/hugomods/pwa v0.9.0/go.mod h1:KpYK2Ffn969+Py5SzV3+iXYase4UoUeRAsd9jY7Q2Us=
-github.com/hugomods/search v0.18.1 h1:NZEQa1FCHrLPBunuuv854KCTfHTw38hPGwVxvWqneDg=
-github.com/hugomods/search v0.18.1/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
+github.com/hugomods/search v0.18.2 h1:kpia1tDUiwM4i4lz3mGWu5zuLr5E/6sCa8gnGxM9EOU=
+github.com/hugomods/search v0.18.2/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
 github.com/hugomods/search-index v0.1.0 h1:JmCeggTFjbztJnSfum4PZ/USlmHP2rIkAWOwSpj11dA=
 github.com/hugomods/search-index v0.1.0/go.mod h1:2owtATJ1XxWAvK/trnNoUC1EoBimAtRYVa7F+JO/s9c=
 github.com/hugomods/seo/modules/alternatives v0.1.1 h1:Y8NdyBhvkSfr43ZKtXvQBgOW9lHL0a6vC1UIZFNbMpo=
