@@ -73,7 +73,7 @@ require (
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/baidu-analytics v0.1.1 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
-	github.com/hugomods/bootstrap v0.22.3 // indirect
+	github.com/hugomods/bootstrap v0.23.0 // indirect
 	github.com/hugomods/cloudflare-analytics v0.1.1 // indirect
 	github.com/hugomods/code-block-panel v0.7.1 // indirect
 	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
@@ -95,7 +95,7 @@ require (
 	github.com/hugomods/microsoft-clarity v0.3.0 // indirect
 	github.com/hugomods/minimal-google-analytics v0.2.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
-	github.com/hugomods/search v0.18.1 // indirect
+	github.com/hugomods/search v0.18.2 // indirect
 	github.com/hugomods/search-index v0.1.0 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
