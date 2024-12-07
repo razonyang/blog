@@ -46,7 +46,7 @@ require (
 	github.com/hbstack/footer/modules/observer v0.1.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.3.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
-	github.com/hbstack/hb v0.15.4 // indirect
+	github.com/hbstack/hb v0.16.0 // indirect
 	github.com/hbstack/header v0.16.4 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/search v0.1.38 // indirect
@@ -69,7 +69,7 @@ require (
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
 	github.com/hbstack/theme-cards v0.1.1 // indirect
 	github.com/hbstack/toc-scrollspy v0.2.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.18 // indirect
+	github.com/henrygd/bigger-picture v1.1.19 // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/baidu-analytics v0.1.1 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
@@ -105,7 +105,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.23.0 // indirect
-	github.com/hugomods/simple-icons v13.18.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.19.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/umami-analytics v0.3.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
