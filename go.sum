@@ -110,8 +110,8 @@ github.com/hbstack/progress-bar v0.1.1 h1:lDnWvTMzPfzJedmUBkPmD+PHzioSMDR7rDBIIu
 github.com/hbstack/progress-bar v0.1.1/go.mod h1:FIGc4o/OJjz79uyjOenyjKfinWu2r7oUzI+XRSRMaOM=
 github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
 github.com/hbstack/pwa v0.1.2/go.mod h1:8x01rczLrSw1aCWD+yrn6v5FRQPtaEh/PYCtFDICEWo=
-github.com/hbstack/revision v0.6.8 h1:LO5RVWfPdNmRfKZJ+QVq2RNGZkGWfzjLBPaca3wCN74=
-github.com/hbstack/revision v0.6.8/go.mod h1:SQQ1u5JVvXM29Mww7R6/M5R7ofF8PJLW2fNdvfWOmIw=
+github.com/hbstack/revision v0.6.9 h1:RU3Y48Nm/ozwlOimnttS7jBOcIG9WCp1/0kcUzcIk8U=
+github.com/hbstack/revision v0.6.9/go.mod h1:SqUgr9HJXcRBB4DK/edMb3OEae7Amx3ktSioaTOX8pY=
 github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2HsyY=
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
 github.com/hbstack/search v0.2.2 h1:OcGCw2cVzZlB48wogNatcbaHk2BB7Boc/ESt9txI4Gw=
