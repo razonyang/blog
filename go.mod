@@ -111,6 +111,6 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.2+incompatible // indirect
 	github.com/krisk/Fuse v7.1.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.4-0.20240813125344-048f56f51460+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.4+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
