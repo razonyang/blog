@@ -35,7 +35,7 @@ jobs:
       - name: Build
         uses: addnab/docker-run-action@v3
         with:
-          image: hugomods/hugo:exts
+          image: hugomods/hugo:exts-0.145.0
           options: >-
             -v ${{ github.workspace }}:/src
             -v /tmp/hugo_cache:/tmp/hugo_cache
